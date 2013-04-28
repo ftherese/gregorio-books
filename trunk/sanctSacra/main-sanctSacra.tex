@@ -1,0 +1,173 @@
+% !TEX TS-program = lualatex
+% !TEX encoding = UTF-8
+
+% This is a simple template for a LuaLaTeX document using gregorio scores.
+
+\documentclass[11pt,a5paper,twoside]{memoir} % use larger type; default would be 10pt
+% usual packages loading:
+%\usepackage{luatextra}
+\usepackage{graphicx} % support the \includegraphics command and options
+\usepackage{geometry}
+\geometry{a5paper}
+\usepackage{multicol}
+\usepackage{gregoriotex} % for gregorio score inclusion
+\usepackage{fullpage}
+\usepackage[latin]{babel}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{luainputenc}
+\usepackage{fontspec}
+
+\usepackage{lmodern}
+\usepackage{url}
+%\usepackage[svgnames]{xcolor}
+\usepackage{pdfcolmk}
+\usepackage{tikz}
+%% for dingbats
+\usepackage{pifont}
+\newlength{\drop}% for my convenience
+%% specify the Webomints family
+\newcommand*{\wb}[2]{\fontsize{#1}{#2}\usefont{U}{webo}{xl}{n}}
+%% select a (FontSite) font by its font family ID
+\newcommand*{\FSfont}[1]{\fontencoding{T1}\fontfamily{#1}\selectfont}
+%% if you don’t have the FontSite fonts either \renewcommand*{\FSfont}[1]{}
+%% or use your own choice of family.
+%% select a (TeX Font) font by its font family ID
+\newcommand*{\TXfont}[1]{\fontencoding{T1}\fontfamily{#1}\selectfont}
+%% Generic publisher’s logo
+\newcommand*{\plogo}{\fbox{$\mathcal{PL}$}}
+%% Some shades
+\definecolor{Dark}{gray}{0.2}
+\definecolor{MedDark}{gray}{0.4}
+\definecolor{Medium}{gray}{0.6}
+\definecolor{Light}{gray}{0.8}
+%%%% Additional font series macros
+\makeatletter
+%%%% light series
+%% e.g., kernel doc, section s: line 12 or thereabouts
+\DeclareRobustCommand\ltseries
+{\not@math@alphabet\ltseries\relax
+\fontseries\ltdefault\selectfont}
+%% e.g., kernel doc, section t: line 32 or thereabouts
+\newcommand{\ltdefault}{l}
+%% e.g., kernel doc, section v: line 19 or thereabouts
+\DeclareTextFontCommand{\textlt}{\ltseries}
+% heavy(bold) series
+\DeclareRobustCommand\hbseries
+{\not@math@alphabet\hbseries\relax
+\fontseries\hbdefault\selectfont}
+\newcommand{\hbdefault}{hb}
+\DeclareTextFontCommand{\texthb}{\hbseries}
+\makeatother
+
+\semiisopage[14]
+\setlrmarginsandblock{.4cm}{*}{*}
+\setulmarginsandblock{.9cm}{*}{*}
+\setlrmargins{*}{*}{1.8}
+\setheadfoot{.5\onelineskip}{.5\onelineskip}
+\setheaderspaces{*}{\onelineskip}{*}
+\checkandfixthelayout
+\nouppercaseheads
+
+\newcommand*{\titleWH}{\begingroup% Words in their Hands
+\drop = 2\baselineskip
+\centering
+\vspace*{\drop}
+{\Huge CANTUS SELECTI}\\[\drop]
+\scalebox{8}[1]{{\wb{10}{12}4}}\\[\drop]
+{\Large\itshape ad Benedictionem Sanctissimi Sacramenti}\\[\baselineskip]
+{\Large CONVENTO DOS PERDÕES}\\[\baselineskip]
+{\wb{10}{12}4}\\[\baselineskip]
+{\Large\itshape Congregação}\\[\baselineskip]
+{\Large SÃO JOÃO}\par
+\vfill
+\scalebox{8}[1]{{\wb{10}{12}4}}\\[\drop]
+{\Large GREGORIANO}\\
+{\scshape MMXIII}\par
+\vspace*{\drop}
+\endgroup}
+
+% here we begin the document
+\begin{document}
+\pagestyle{empty}
+\titleWH
+\clearpage
+% The title:
+\setmainfont[Ligatures={Rare,TeX}]{Warnock Pro}
+
+% Here we set the space around the initial.
+% Please report to http://home.gna.org/gregorio/gregoriotex/details for more details and options
+\setspaceafterinitial{2.2mm plus 0em minus 0em}
+\setspacebeforeinitial{2.2mm plus 0em minus 0em}
+
+% Here we set the initial font. Change 43 if you want a bigger initial.
+\def\greinitialformat#1{%
+{\fontsize{43}{43}\selectfont #1}%
+}
+
+% We set red lines here, comment it if you want black ones.
+%\redlines
+
+% We set VII above the initial.
+
+% We type a text in the top right corner of the score:
+
+% and finally we include the score. The file must be in the same directory as this one.
+\begin{center}\begin{huge}\textsc{Tantum Ergo}\end{huge}\end{center}
+\gresetfirstlineaboveinitial{\small \textsc{\textbf{I}}}{\small \textsc{\textbf{I}}}
+%\commentary{{\small \emph{Commentary (Title in English, Class)}}}
+\includescore{TantumErgo.tex}
+\gresetfirstlineaboveinitial{\small \textsc{\textbf{II}}}{\small \textsc{\textbf{II}}}
+\includescore{TantumErgo_v2.tex}
+\gresetfirstlineaboveinitial{\small \textsc{\textbf{III}}}{\small \textsc{\textbf{III}}}
+\includescore{TantumErgo_v3.tex}
+\begin{center}\begin{huge}\textsc{O Salutoris}\end{huge}\end{center}
+\gresetfirstlineaboveinitial{\small \textsc{\textbf{I}}}{\small \textsc{\textbf{I}}}
+\includescore{OSalutaris.tex}
+\gresetfirstlineaboveinitial{\small \textsc{\textbf{II}}}{\small \textsc{\textbf{II}}}
+\includescore{OSalutaris_v2.tex}
+\gresetfirstlineaboveinitial{\small \textsc{\textbf{III}}}{\small \textsc{\textbf{III}}}
+\includescore{O_salutaris_Hostia_III.tex}
+\begin{center}\begin{huge}\textsc{Adoremos in Aeternum}\end{huge}\end{center}
+%\commentary{{\small \emph{Commentary (Title in English, Class)}}}
+\gresetfirstlineaboveinitial{\small \textsc{\textbf{I}}}{\small \textsc{\textbf{I}}}
+\includescore{Adoremus_and_Laudate_Dominum_I.tex}
+\gresetfirstlineaboveinitial{\small \textsc{\textbf{II}}}{\small \textsc{\textbf{II}}}
+\includescore{Adoremus_and_Laudate_Dominum_II.tex}
+\gresetfirstlineaboveinitial{\small \textsc{\textbf{III}}}{\small \textsc{\textbf{III}}}
+\includescore{Adoremus_and_Laudate_Dominum_III.tex}
+\begin{center}\begin{huge}\textsc{Adoro te devote}\end{huge}\end{center}
+%\commentary{{\small \emph{Commentary (Title in English, Class)}}}
+\gresetfirstlineaboveinitial{\small \textsc{\textbf{I}}}{\small \textsc{\textbf{I}}}
+\includescore{Adoro_te_devote.tex}
+\begin{multicols}{2}
+\includescore{Adoro_te_devote-verses.tex}
+\end{multicols}
+\clearpage
+\begin{center}\begin{huge}\textsc{Anima Christi}\end{huge}\end{center}
+%\commentary{{\small \emph{Commentary (Title in English, Class)}}}
+\gresetfirstlineaboveinitial{\small \textsc{\textbf{I}}}{\small \textsc{\textbf{I}}}
+\includescore{Anima_Christi.tex}
+\begin{center}\begin{huge}\textsc{Ave Verum}\end{huge}\end{center}
+%\commentary{{\small \emph{Commentary (Title in English, Class)}}}
+\gresetfirstlineaboveinitial{\small \textsc{\textbf{I}}}{\small \textsc{\textbf{I}}}
+\includescore{Ave_Verum.tex}
+\begin{center}\begin{huge}\textsc{Ecce panis angelorum}\end{huge}\end{center}
+%\commentary{{\small \emph{Commentary (Title in English, Class)}}}
+\gresetfirstlineaboveinitial{\small \textsc{\textbf{I}}}{\small \textsc{\textbf{I}}}
+\includescore{Ecce_panis_Angelorum.tex}
+\begin{center}\begin{huge}\textsc{O panis dulcissime}\end{huge}\end{center}
+%\commentary{{\small \emph{Commentary (Title in English, Class)}}}
+\gresetfirstlineaboveinitial{\small \textsc{\textbf{I}}}{\small \textsc{\textbf{I}}}
+\includescore{O_Panis_dulcissime.tex}
+\clearpage
+\begin{center}\begin{huge}\textsc{Panis angelicus}\end{huge}\end{center}
+%\commentary{{\small \emph{Commentary (Title in English, Class)}}}
+\gresetfirstlineaboveinitial{\small \textsc{\textbf{I}}}{\small \textsc{\textbf{I}}}
+\includescore{Panis_angelicus.tex}
+\begin{center}\begin{huge}\textsc{Ubi caritas}\end{huge}\end{center}
+%\commentary{{\small \emph{Commentary (Title in English, Class)}}}
+\gresetfirstlineaboveinitial{\small \textsc{\textbf{I}}}{\small \textsc{\textbf{I}}}
+\includescore{Ubi_caritas.tex}
+
+
+\end{document}
