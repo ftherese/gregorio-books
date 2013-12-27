@@ -1,13 +1,12 @@
-This is LuaTeX, Version beta-0.70.2-2012091206 (TeX Live 2012/Debian) (format=lualatex 2013.4.22)  27 APR 2013 17:22
+This is LuaTeX, Version beta-0.76.0-2013070111 (rev 4627)  (format=lualatex 2013.12.1)  26 DEC 2013 19:39
  restricted \write18 enabled.
 **main-sanctSacra.tex
 (./main-sanctSacra.tex
 LaTeX2e <2011/06/27>
-LuaTeX adaptation of babel <v3.8m-luatex-1.5> and hyphenation patterns for engl
-ish, dumylang, nohyphenation, loaded.
+Babel <3.9f> and hyphenation patterns for 2 languages loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/memoir/memoir.cls
-Document Class: memoir 2011/03/06 v3.6j configurable book, report, article docu
-ment class
+Document Class: memoir 2013/05/30 v3.7b configurable book, report, article docum
+ent class
 \onelineskip=\skip41
 \lxvchars=\skip42
 \xlvchars=\skip43
@@ -190,8 +189,8 @@ File: mem11.clo 2008/01/30 v0.3 memoir class 11pt size option
 \afterepigraphskip=\skip125
 \epigraphwidth=\skip126
 \epigraphrule=\skip127
-LaTeX Info: Redefining \em on input line 7377.
-LaTeX Info: Redefining \emph on input line 7385.
+LaTeX Info: Redefining \em on input line 7492.
+LaTeX Info: Redefining \emph on input line 7500.
 \tocentryskip=\skip128
 \tocbaseline=\skip129
 \cftparskip=\skip130
@@ -274,8 +273,8 @@ LaTeX Info: Redefining \emph on input line 7385.
 \FrameRule=\dimen145
 \FrameSep=\dimen146
 \c@cp@cntr=\count119
-LaTeX Info: Redefining \: on input line 11807.
-LaTeX Info: Redefining \! on input line 11809.
+LaTeX Info: Redefining \: on input line 11958.
+LaTeX Info: Redefining \! on input line 11960.
 \c@ism@mctr=\count120
 \c@xsm@mctr=\count121
 \c@csm@mctr=\count122
@@ -302,7 +301,7 @@ LaTeX Info: Redefining \! on input line 11809.
 \cfttablenumwidth=\skip184
 Package abstract [2008/07/23] emulated by memoir.
 Package appendix [2008/07/23] emulated by memoir.
-Package array [2008/07/23] emulated by memoir.
+Package array [2008/09/09] emulated by memoir.
 Package booktabs [2008/07/23] emulated by memoir.
 Package ccaption [2008/07/23] emulated by memoir.
 Package changepage [2008/07/23] emulated by memoir.
@@ -367,8 +366,8 @@ Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
-Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
-)
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO)
+
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
@@ -452,8 +451,8 @@ Package: multicol 2011/06/27 v1.7a multicolumn formatting (FMi)
 \colbreak@box=\box54
 \multicol@sort@counter=\count150
 )
-(/usr/share/texmf/tex/latex/gregoriotex/gregoriotex.sty
-Package: gregoriotex 2010/06/22 v1.1 GregorioTeX system.
+(/usr/share/texmf/tex/luatex/gregoriotex/gregoriotex.sty
+Package: gregoriotex 2010/09/27 v2.1 GregorioTeX system.
 
 (/usr/share/texmf/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
@@ -472,189 +471,51 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
 )
-(/usr/share/texmf/tex/gregoriotex/gregoriotex.tex
-\Greaux=\write4
-\grefactor=\count151
-
-(/usr/share/texmf/tex/gregoriotex/gregoriotex-spaces.tex
-\greadditionallineswidth=\skip187
-\grezerowidthspace=\skip188
-\greinterglyphspace=\skip189
-\grealterationspace=\skip190
-\grebeforechoralsignspace=\skip191
-\greclefflatspace=\skip192
-\grebeforealterationspace=\skip193
-\greinterelementspace=\skip194
-\grelargerspace=\skip195
-\greglyphspace=\skip196
-\greintersyllablespace=\skip197
-\grespacebeforecusto=\skip198
-\grespacebeforesigns=\skip199
-\grespaceaftersigns=\skip200
-\grespaceafterlineclef=\skip201
-\greinterwordspacenotes=\skip202
-\greinterwordspacenotestext=\skip203
-\greinterwordspacetextnotes=\skip204
-\greinterwordspacetext=\skip205
-\grebitrivirspace=\skip206
-\grebitristrospace=\skip207
-\grepunctuminclinatumshift=\skip208
-\grebeforepunctainclinatashift=\skip209
-\grepunctuminclinatumanddebilisshift=\skip210
-\grepunctuminclinatumdebilisshift=\skip211
-\grepunctuminclinatumbigshift=\skip212
-\grepunctuminclinatummaxshift=\skip213
-\grespacearoundsmallbar=\skip214
-\grespacearoundminor=\skip215
-\grespacearoundmaior=\skip216
-\grespacearoundfinalis=\skip217
-\grespacebeforefinalfinalis=\skip218
-\grespacearoundclefbars=\skip219
-\gretextbartextspace=\skip220
-\grenotebarspace=\skip221
-\gremaximumspacewithoutdash=\dimen165
-\greafterclefnospace=\skip222
-\greadditionallineswidth=\dimen166
-\greafterinitialshift=\skip223
-\grebeforeinitialshift=\skip224
-\greminimalspaceatlinebeginning=\dimen167
-\greaboveinitialseparation=\dimen168
-\grestafflineheight=\dimen169
-\greinterstafflinespace=\dimen170
-\grestafflinediff=\dimen171
-\greabovesignsspace=\dimen172
-\grebelowsignsspace=\dimen173
-\grelowchoralsignshift=\dimen174
-\grehighchoralsignshift=\dimen175
-\gretranslationheight=\dimen176
-\grespaceabovelines=\skip225
-\greabovelinestextraise=\dimen177
-\greabovelinestextheight=\dimen178
-\grespacelinestext=\skip226
-\grespacebeneathtext=\skip227
-\greconstantglyphraise=\dimen179
-\grestaffheight=\dimen180
-\greclefchangespace=\skip228
-\grenoclefspace=\dimen181
-Normal \skip register pool exhausted, switching to extended pool.
-\grebraceshift=\skip256
-\grecurlybraceaccentusshift=\skip257
-
-(/usr/share/texmf/tex/gregoriotex/gsp-default.tex))
-\grestafflinewidth=\dimen182
-\grelinewidth=\dimen183
-\grecurrenttranslationheight=\dimen184
-\greadditionalbottomspace=\dimen185
-\greadditionaltopspace=\dimen186
-\gretextlower=\dimen187
-\GreTempwidth=\box55
-\gretempwidth=\dimen188
-\gretextaligncenter=\dimen189
-\gregoriotextdashwidth=\dimen190
-\greadditionalleftspace=\dimen191
-\GreInitial=\box56
-\greinitialwidth=\dimen192
-\grebiginitial=\count152
-\greknownline=\count153
-\GreAboveinitialfirstbox=\box57
-\greaboveinitialfirstraise=\dimen193
-\GreAboveinitialsecondbox=\box58
-\greaboveinitialsecondraise=\dimen194
-\grecurrentabovelinestextheight=\dimen195
-\GreLines=\box59
-
-(/usr/share/texmf/tex/gregoriotex/gregoriotex-signs.tex
-\greclefnum=\count154
-\greclefwidth=\dimen196
-\GreTempsign=\box60
-\gretempdimsignwidth=\dimen197
-\gretempdimtwo=\dimen198
-\keeprightbox=\count155
-\grefirstisalteration=\count156
-)
-(/usr/share/texmf/tex/gregoriotex/gregoriotex-syllable.tex
-\greglyphraisevalue=\dimen199
-\greaddedraisevalue=\dimen200
-\gretempdimcount=\count157
-\greisonaline=\count158
-\grefirstglyph=\count159
-\grelastglyphwidth=\dimen201
-\grenotesaligncenter=\dimen202
-\GreSyllablenotes=\box61
-\greenddifference=\dimen203
-\grepreviousenddifference=\dimen204
-\grebegindifference=\dimen205
-\gretempdim=\dimen206
-\GreSyllabletext=\box62
-\grefirstsyllableofword=\count160
-\greendofscore=\count161
-\greskipone=\skip258
-\grenextbegindifference=\skip259
-\gretempdimskip=\skip260
-)
-\printchirovbars=\count162
-\grelastoflinecount=\count163
-\greblockcusto=\count164
-
-(/usr/share/texmf/tex/gregoriotex/gregoriotex-symbols.tex
-\gretempfactor=\count165
-)))
-(/usr/share/texlive/texmf-dist/tex/latex/preprint/fullpage.sty
-Package: fullpage 1999/02/23 1.1 (PWD)
-\FP@margin=\skip261
-)
-(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2008/07/08 v3.8m The Babel package
-
-(/usr/share/texlive/texmf-dist/tex/generic/babel/latin.ldf
-File: latin.ldf 2008/07/06 v2.0l Latin support from the babel system
-
-(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
-File: babel.def 2008/07/08 v3.8m Babel common definitions
-\babel@savecnt=\count166
-\U@D=\dimen207
-)
-
-Package babel Warning: No hyphenation patterns were loaded for
-(babel)                the language `Latin'
-(babel)                I will use the patterns loaded for \language=0 instead.
-
-luatex-hyphen: using data file: /var/lib/texmf/tex/generic/config/language.dat.
-lua
-\l@latin = a dialect from \language0
-Package babel Info: Making " an active character on input line 188.
-)) (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
-Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def
-File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
-LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
-))
-(/usr/share/texlive/texmf-dist/tex/lualatex/luainputenc/luainputenc.sty
-Package: luainputenc 2010/11/19 v0.973 inputenc package for LuaTeX
-
+(/usr/share/texmf/tex/luatex/gregoriotex/gregoriotex.tex
 (/usr/share/texlive/texmf-dist/tex/luatex/luatexbase/luatexbase.sty
-Package: luatexbase 2010/10/06 v0.3 Module utilities for LuaTeX
+Package: luatexbase 2013/05/11 v0.6 Resource management for the LuaTeX macro pro
+grammer
 
-(/usr/share/texlive/texmf-dist/tex/luatex/luatexbase/luatexbase-compat.sty
-Package: luatexbase-compat 2010/10/10 v0.3 Compatibility tools for LuaTeX
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/luatex.sty
+Package: luatex 2010/03/09 v0.4 LuaTeX basic definition package (HO)
+\LuT@AllocAttribute=\count277
+\LuT@AllocCatcodeTable=\count278
+\CatcodeTableStack=\count279
+\CatcodeTableIniTeX=\catcodetable1
+\CatcodeTableString=\catcodetable3
+\CatcodeTableOther=\catcodetable5
+\CatcodeTableLaTeX=\catcodetable7
 )
+(/usr/share/texlive/texmf-dist/tex/luatex/luatexbase/luatexbase-compat.sty
+Package: luatexbase-compat 2011/05/24 v0.4 Compatibility tools for LuaTeX
+)
+(/usr/share/texlive/texmf-dist/tex/luatex/luatexbase/luatexbase-modutils.sty
+Package: luatexbase-modutils 2013/05/11 v0.6 Module utilities for LuaTeX
+
 (/usr/share/texlive/texmf-dist/tex/luatex/luatexbase/luatexbase-loader.sty
-Package: luatexbase-loader 2010/10/10 v0.3 Lua module loader for LuaTeX
+Package: luatexbase-loader 2013/05/11 v0.6 Lua module loader for LuaTeX
 
 (/usr/share/texlive/texmf-dist/tex/luatex/luatexbase/luatexbase.loader.lua))
+(/usr/share/texlive/texmf-dist/tex/luatex/luatexbase/modutils.lua)
+Lua module: luatexbase-modutils 2013/05/11 0.6 Module utilities for LuaTeX
+)
 (/usr/share/texlive/texmf-dist/tex/luatex/luatexbase/luatexbase-regs.sty
-Package: luatexbase-regs 2010/10/10 v0.3 Registers allocation for LuaTeX
+Package: luatexbase-regs 2011/05/24 v0.4 Registers allocation for LuaTeX
 )
 (/usr/share/texlive/texmf-dist/tex/luatex/luatexbase/luatexbase-attr.sty
-Package: luatexbase-attr 2011/05/21 v0.31 Attributes allocation for LuaTeX
+Package: luatexbase-attr 2013/05/11 v0.6 Attributes allocation for LuaTeX
 
-(/usr/share/texlive/texmf-dist/tex/luatex/luatexbase/attr.lua))
+(/usr/share/texlive/texmf-dist/tex/luatex/luatexbase/attr.lua)
+Lua module: luatexbase-attr 2013/05/11 0.6 Attributes allocation for LuaTeX
+\lltxb@attr@unsetvalue=\count280
+)
 (/usr/share/texlive/texmf-dist/tex/luatex/luatexbase/luatexbase-cctb.sty
-Package: luatexbase-cctb 2010/10/10 v0.3 Catcodetable allocation for LuaTeX
+Package: luatexbase-cctb 2013/05/11 v0.6 Catcodetable allocation for LuaTeX
 
 (/usr/share/texlive/texmf-dist/tex/luatex/luatexbase/cctb.lua)
-\lltxb@catcodetable@alloc=\count277
+Lua module: luatexbase-cctb 2013/05/11 0.6 Catcodetable allocation for LuaTeX
+\lltxb@catcodetable@alloc=\count281
+\CatcodeTableStack=\count282
 \CatcodeTableIniTeX=\luatexcatcodetable1
 \CatcodeTableString=\luatexcatcodetable3
 \CatcodeTableOther=\luatexcatcodetable5
@@ -663,16 +524,242 @@ Package: luatexbase-cctb 2010/10/10 v0.3 Catcodetable allocation for LuaTeX
 \CatcodeTableExpl=\luatexcatcodetable11
 )
 (/usr/share/texlive/texmf-dist/tex/luatex/luatexbase/luatexbase-mcb.sty
-Package: luatexbase-mcb 2010/10/10 v0.3 Callback management for LuaTeX
+Package: luatexbase-mcb 2013/05/11 v0.6 Callback management for LuaTeX
 
-(/usr/share/texlive/texmf-dist/tex/luatex/luatexbase/luatexbase-modutils.sty
-Package: luatexbase-modutils 2010/10/10 v0.3 Module utilities for LuaTeX
-
-(/usr/share/texlive/texmf-dist/tex/luatex/luatexbase/modutils.lua))
 (/usr/share/texlive/texmf-dist/tex/luatex/luatexbase/mcb.lua)
-Lua module: luatexbase-mcb 2010/05/12 0.2 register several functions in a callb
-ack
+Lua module: luatexbase-mcb 2013/05/11 0.6 register several functions in a callba
+ck
 ))
+(/usr/share/texlive/texmf-dist/tex/luatex/luaotfload/luaotfload.sty
+Package: luaotfload 2013/07/10 v2.3a OpenType layout system
+
+(/usr/share/texlive/texmf-dist/tex/luatex/luaotfload/luaotfload.lua)
+Lua module: luaotfload 2013/07/10 2.3001 OpenType layout system.
+luaotfload: push namespace for font loader
+(/usr/share/texlive/texmf-dist/tex/luatex/luaotfload/luaotfload-merged.lua)(usin
+g write cache: /home/ftherese/.texmf-var/luatex-cache/generic)(using read cache:
+ /var/lib/texmf/luatex-cache/generic /home/ftherese/.texmf-var/luatex-cache/gene
+ric)
+luatexbase-attr: luatexbase.attributes["luaotfload@kernpair"] = 1
+luatexbase-attr: luatexbase.attributes["luaotfload@ligacomp"] = 2
+luatexbase-attr: luatexbase.attributes["luaotfload@markbase"] = 3
+luatexbase-attr: luatexbase.attributes["luaotfload@markmark"] = 4
+luatexbase-attr: luatexbase.attributes["luaotfload@markdone"] = 5
+luatexbase-attr: luatexbase.attributes["luaotfload@cursbase"] = 6
+luatexbase-attr: luatexbase.attributes["luaotfload@curscurs"] = 7
+luatexbase-attr: luatexbase.attributes["luaotfload@cursdone"] = 8
+luatexbase-attr: luatexbase.attributes["luaotfload@state"] = 9
+luaotfload: “I am using the merged version of 'luaotfload.lua' here. If
+luaotfload:  you run into problems or experience unexpected behaviour,
+luaotfload:  and if you have ConTeXt installed you can try to delete the
+luaotfload:  file 'luaotfload-font-merged.lua' as I might then use the
+luaotfload:  possibly updated libraries. The merged version is not
+luaotfload:  supported as it is a frozen instance. Problems can be
+luaotfload:  reported to the ConTeXt mailing list.”
+luaotfload: pop namespace from font loader -- non-destructive
+luaotfload: fontloader loaded in 0.087 seconds
+luatexbase-mcb: inserting 'luaotfload.node_processor'
+at position 1 in 'pre_linebreak_filter'
+luatexbase-mcb: inserting 'luaotfload.node_processor'
+at position 1 in 'hpack_filter'
+luatexbase-mcb: inserting 'luaotfload.find_vf_file'
+at position 1 in 'find_vf_file'
+(/usr/share/texlive/texmf-dist/tex/luatex/luaotfload/luaotfload-override.lua)
+(/usr/share/texlive/texmf-dist/tex/luatex/luaotfload/luaotfload-loaders.lua)
+(/usr/share/texlive/texmf-dist/tex/luatex/luaotfload/luaotfload-database.lua)
+luaotfload | db : root cache directory is /home/ftherese/.texmf-var/luatex-cache
+/generic/names/
+(/usr/share/texlive/texmf-dist/tex/luatex/luaotfload/luaotfload-colors.lua)
+luatexbase-mcb: creating 'luaotfload.resolve_font' type 4
+luatexbase-mcb: creating 'luaotfload.patch_font' type 4
+luatexbase-mcb: resetting callback 'define_font'
+luatexbase-mcb: inserting 'luaotfload.define_font'
+at position 1 in 'define_font'
+(/usr/share/texlive/texmf-dist/tex/luatex/luaotfload/luaotfload-features.lua)
+(/usr/share/texlive/texmf-dist/tex/luatex/luaotfload/luaotfload-extralibs.lua)
+(/usr/share/texlive/texmf-dist/tex/luatex/luaotfload/luaotfload-typo-krn.lua)
+luatexbase-attr: luatexbase.attributes["luaotfload@kern"] = 12
+luatexbase-attr: luatexbase.attributes["luaotfload@fontkern"] = 13
+(/usr/share/texlive/texmf-dist/tex/luatex/luaotfload/luaotfload-letterspace.lua)
+(/usr/share/texlive/texmf-dist/tex/luatex/luaotfload/luaotfload-auxiliary.lua)
+luatexbase-mcb: inserting 'luaotfload.rewrite_fontname'
+at position 1 in 'luaotfload.patch_font'
+luatexbase-mcb: inserting 'luaotfload.aux.set_sscale_dimens'
+at position 2 in 'luaotfload.patch_font'
+luatexbase-mcb: inserting 'luaotfload.aux.patch_cambria_domh'
+at position 3 in 'luaotfload.patch_font'
+luatexbase-mcb: inserting 'luaotfload.aux.set_capheight'
+at position 4 in 'luaotfload.patch_font')
+\gregorioattr=\luatexattribute14
+(/usr/share/texmf/tex/luatex/gregoriotex/gregoriotex.lua)
+Lua module: gregoriotex 2013/05/21 2.3 GregorioTeX module.
+\Greaux=\write4
+\grefactor=\count283
+
+(/usr/share/texmf/tex/luatex/gregoriotex/gregoriotex-spaces.tex
+\greadditionallineswidth=\skip256
+\grezerowidthspace=\skip257
+\greinterglyphspace=\skip258
+\grealterationspace=\skip259
+\grebeforechoralsignspace=\skip260
+\greclefflatspace=\skip261
+\grebeforealterationspace=\skip262
+\greinterelementspace=\skip263
+\grelargerspace=\skip264
+\greglyphspace=\skip265
+\greintersyllablespace=\skip266
+\grespacebeforecusto=\skip267
+\grespacebeforesigns=\skip268
+\grespaceaftersigns=\skip269
+\grespaceafterlineclef=\skip270
+\greinterwordspacenotes=\skip271
+\greinterwordspacenotestext=\skip272
+\greinterwordspacetextnotes=\skip273
+\greinterwordspacetext=\skip274
+\grebitrivirspace=\skip275
+\grebitristrospace=\skip276
+\grepunctuminclinatumshift=\skip277
+\grebeforepunctainclinatashift=\skip278
+\grepunctuminclinatumanddebilisshift=\skip279
+\grepunctuminclinatumdebilisshift=\skip280
+\grepunctuminclinatumbigshift=\skip281
+\grepunctuminclinatummaxshift=\skip282
+\grespacearoundsmallbar=\skip283
+\grespacearoundminor=\skip284
+\grespacearoundmaior=\skip285
+\grespacearoundfinalis=\skip286
+\grespacebeforefinalfinalis=\skip287
+\grespacearoundclefbars=\skip288
+\gretextbartextspace=\skip289
+\grenotebarspace=\skip290
+\gremaximumspacewithoutdash=\dimen256
+\greafterclefnospace=\skip291
+\greadditionallineswidth=\dimen257
+\greafterinitialshift=\skip292
+\grebeforeinitialshift=\skip293
+\greminimalspaceatlinebeginning=\dimen258
+\greaboveinitialseparation=\dimen259
+\grestafflineheight=\dimen260
+\greinterstafflinespace=\dimen261
+\grestafflinediff=\dimen262
+\greabovesignsspace=\dimen263
+\grebelowsignsspace=\dimen264
+\grelowchoralsignshift=\dimen265
+\grehighchoralsignshift=\dimen266
+\gretranslationheight=\dimen267
+\grespaceabovelines=\skip294
+\greabovelinestextraise=\dimen268
+\greabovelinestextheight=\dimen269
+\grespacelinestext=\skip295
+\grespacebeneathtext=\skip296
+\greconstantglyphraise=\dimen270
+\grestaffheight=\dimen271
+\greclefchangespace=\skip297
+\grenoclefspace=\dimen272
+\grebraceshift=\skip298
+\grecurlybraceaccentusshift=\skip299
+
+(/usr/share/texmf/tex/luatex/gregoriotex/gsp-default.tex))
+\grestafflinewidth=\dimen273
+\grelinewidth=\dimen274
+\grecurrenttranslationheight=\dimen275
+\greadditionalbottomspace=\dimen276
+\greadditionaltopspace=\dimen277
+\gretextlower=\dimen278
+\GreTempwidth=\box256
+\gretempwidth=\dimen279
+\gretextaligncenter=\dimen280
+\greadditionalleftspace=\dimen281
+\GreInitial=\box257
+\greinitialwidth=\dimen282
+\grebiginitial=\count284
+\greknownline=\count285
+\GreAboveinitialfirstbox=\box258
+\greaboveinitialfirstraise=\dimen283
+\GreAboveinitialsecondbox=\box259
+\greaboveinitialsecondraise=\dimen284
+\grecurrentabovelinestextheight=\dimen285
+\GreLines=\box260
+
+(/usr/share/texmf/tex/luatex/gregoriotex/gregoriotex-signs.tex
+\greclefnum=\count286
+\greclefwidth=\dimen286
+\GreTempsign=\box261
+\gretempdimsignwidth=\dimen287
+\gretempdimtwo=\dimen288
+\keeprightbox=\count287
+\grefirstisalteration=\count288
+)
+(/usr/share/texmf/tex/luatex/gregoriotex/gregoriotex-syllable.tex
+\greglyphraisevalue=\dimen289
+\greaddedraisevalue=\dimen290
+\gretempdimcount=\count289
+\greisonaline=\count290
+\grefirstglyph=\count291
+\grelastglyphwidth=\dimen291
+\grenotesaligncenter=\dimen292
+\GreSyllablenotes=\box262
+\greenddifference=\dimen293
+\grepreviousenddifference=\dimen294
+\grebegindifference=\dimen295
+\gretempdim=\dimen296
+\GreSyllabletext=\box263
+\grefirstsyllableofword=\count292
+\greendofscore=\count293
+\greskipone=\skip300
+\grenextbegindifference=\skip301
+\gretempdimskip=\skip302
+)
+\printchirovbars=\count294
+\grelastoflinecount=\count295
+\greblockcusto=\count296
+
+(/usr/share/texmf/tex/luatex/gregoriotex/gregoriotex-symbols.tex
+\gretempfactor=\count297
+luaotfload | load : auto-selecting default features for script: dflt
+luaotfload | resolve : Font family='gresym', subfamily='regular' found: gresym.t
+tf(load luc: /home/ftherese/.texmf-var/luatex-cache/generic/fonts/otf/gresym.luc
+))))
+(/usr/share/texlive/texmf-dist/tex/latex/preprint/fullpage.sty
+Package: fullpage 1999/02/23 1.1 (PWD)
+\FP@margin=\skip303
+)
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2013/05/16 v3.9f The Babel package
+
+
+! Package babel Error: Unknow option `latin'. Either you misspelled it
+(babel)                or the language definition file latin.ldf was not found.
+
+
+See the babel package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.293 \ProcessOptions*
+                    
+? 
+
+! Package babel Error: You haven't specified a language option.
+
+See the babel package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.326 ... try to proceed from here, type x to quit.}
+                                                  
+? 
+) (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def
+File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
+)
+luaotfload | load : auto-selecting default features for script: dflt)
+(/usr/share/texlive/texmf-dist/tex/lualatex/luainputenc/luainputenc.sty
+Package: luainputenc 2010/11/19 v0.973 inputenc package for LuaTeX
+
 (/usr/share/texlive/texmf-dist/tex/lualatex/luainputenc/luainputenc.lua)
 Lua module: luainputenc 2010/05/10 0.97 Lua simple inputenc package.
 \inpenc@prehook=\toks25
@@ -706,317 +793,181 @@ Now handling font encoding U ...
 ... no UTF-8 mapping file for font encoding U
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.sty
-Package: fontspec 2012/05/06 v2.2b Advanced font selection for XeLaTeX/LuaLaTeX
-
+Package: fontspec 2013/05/20 v2.3c Font selection for XeLaTeX and LuaLaTeX
 
 (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
 (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3names.sty
 (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3bootstrap.sty
-Package: l3bootstrap 2011/12/29 v3110 L3 Experimental bootstrap code
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/luatex.sty
-Package: luatex 2010/03/09 v0.4 LuaTeX basic definition package (HO)
-\LuT@AllocAttribute=\count278
-\LuT@AllocCatcodeTable=\count279
-\CatcodeTableStack=\count280
-\CatcodeTableIniTeX=\catcodetable1
-\CatcodeTableString=\catcodetable3
-\CatcodeTableOther=\catcodetable5
-\CatcodeTableLaTeX=\catcodetable7
-))
-Package: l3names 2012/03/04 v3494 L3 Experimental namespace for primitives
+Package: l3bootstrap 2013/01/08 v4420 L3 Experimental bootstrap code
 )
-Package: expl3 2012/04/23 v3570 L3 Experimental code bundle wrapper
+Package: l3names 2012/12/07 v4346 L3 Namespace for primitives
+)
+Package: expl3 2013/07/12 v4544 L3 Experimental code bundle wrapper
 
 (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3basics.sty
-Package: l3basics 2012/03/04 v3491 L3 Experimental basic definitions
+Package: l3basics 2013/07/09 v4521 L3 Basic definitions
 )
 (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3expan.sty
-Package: l3expan 2012/02/26 v3460 L3 Experimental argument expansion
+Package: l3expan 2013/07/09 v4521 L3 Argument expansion
 )
 (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3tl.sty
-Package: l3tl 2012/03/04 v3490 L3 Experimental token lists
+Package: l3tl 2013/04/24 v4482 L3 Token lists
 )
 (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3seq.sty
-Package: l3seq 2012/03/04 v3490 L3 Experimental sequences and stacks
+Package: l3seq 2013/05/26 v4500 L3 Sequences and stacks
 )
 (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3int.sty
-Package: l3int 2012/03/04 v3490 L3 Experimental integers
-\c_max_int=\count281
-\l_tmpa_int=\count282
-\l_tmpb_int=\count283
-\l_tmpc_int=\count284
-\g_tmpa_int=\count285
-\g_tmpb_int=\count286
+Package: l3int 2013/04/24 v4482 L3 Integers
+\c_max_int=\count298
+\l_tmpa_int=\count299
+\l_tmpb_int=\count300
+\g_tmpa_int=\count301
+\g_tmpb_int=\count302
 )
 (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3quark.sty
-Package: l3quark 2012/02/12 v3384 L3 Experimental quarks
+Package: l3quark 2013/07/09 v4521 L3 Quarks
 )
 (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3prg.sty
-Package: l3prg 2012/03/04 v3490 L3 Experimental control structures
-\g_prg_map_int=\count287
+Package: l3prg 2013/04/24 v4482 L3 Control structures
+\g__prg_map_int=\count303
 )
 (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3clist.sty
-Package: l3clist 2012/03/04 v3490 L3 Experimental comma separated lists
+Package: l3clist 2013/05/26 v4500 L3 Comma separated lists
 )
 (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3token.sty
-Package: l3token 2012/03/04 v3491 L3 Experimental token manipulation
+Package: l3token 2013/04/24 v4482 L3 Experimental token manipulation
 )
 (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3prop.sty
-Package: l3prop 2012/03/04 v3490 L3 Experimental property lists
+Package: l3prop 2013/01/09 v4423 L3 Property lists
 )
 (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3msg.sty
-Package: l3msg 2012/04/23 v3568 L3 Experimental messages
+Package: l3msg 2013/01/08 v4412 L3 Messages
 )
 (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3file.sty
-Package: l3file 2012/03/09 v3520 L3 Experimental file and I/O operations
-\l_iow_stream_int=\count288
-\l_iow_line_length_int=\count289
-\l_iow_target_length_int=\count290
-\l_iow_current_line_int=\count291
-\l_iow_current_word_int=\count292
-\l_iow_current_indentation_int=\count293
+Package: l3file 2013/05/01 v4483 L3 File and I/O operations
+\l_iow_line_count_int=\count304
+\l__iow_target_count_int=\count305
+\l__iow_current_line_int=\count306
+\l__iow_current_word_int=\count307
+\l__iow_current_indentation_int=\count308
 )
 (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3skip.sty
-Package: l3skip 2012/03/05 v3499 L3 Experimental dimensions and skips
-\l_tmpa_dim=\dimen256
-\l_tmpb_dim=\dimen257
-\l_tmpc_dim=\dimen258
-\g_tmpa_dim=\dimen259
-\g_tmpb_dim=\dimen260
-\l_tmpa_skip=\skip262
-\l_tmpb_skip=\skip263
-\l_tmpc_skip=\skip264
-\g_tmpa_skip=\skip265
-\g_tmpb_skip=\skip266
+Package: l3skip 2013/01/13 v4444 L3 Dimensions and skips
+\c_zero_dim=\dimen297
+\c_max_dim=\dimen298
+\l_tmpa_dim=\dimen299
+\l_tmpb_dim=\dimen300
+\g_tmpa_dim=\dimen301
+\g_tmpb_dim=\dimen302
+\c_zero_skip=\skip304
+\c_max_skip=\skip305
+\l_tmpa_skip=\skip306
+\l_tmpb_skip=\skip307
+\g_tmpa_skip=\skip308
+\g_tmpb_skip=\skip309
+\c_zero_muskip=\muskip10
+\c_max_muskip=\muskip11
+\l_tmpa_muskip=\muskip12
+\l_tmpb_muskip=\muskip13
+\g_tmpa_muskip=\muskip14
+\g_tmpb_muskip=\muskip15
 )
 (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3keys.sty
-Package: l3keys 2012/03/03 v3487 L3 Experimental key-value interfaces
-\g_keyval_level_int=\count294
-\l_keys_choice_int=\count295
+Package: l3keys 2013/07/12 v4544 L3 Experimental key-value interfaces
+\g__keyval_level_int=\count309
+\l_keys_choice_int=\count310
 )
 (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3fp.sty
-Package: l3fp 2012/03/04 v3490 L3 Experimental floating-point operations
-\c_one_hundred_million=\count296
-\c_five_hundred_million=\count297
-\c_one_thousand_million=\count298
-\c_fp_pi_by_four_decimal_int=\count299
-\c_fp_pi_by_four_extended_int=\count300
-\c_fp_pi_decimal_int=\count301
-\c_fp_pi_extended_int=\count302
-\c_fp_two_pi_decimal_int=\count303
-\c_fp_two_pi_extended_int=\count304
-\l_fp_count_int=\count305
-\l_fp_div_offset_int=\count306
-\l_fp_exp_integer_int=\count307
-\l_fp_exp_decimal_int=\count308
-\l_fp_exp_extended_int=\count309
-\l_fp_exp_exponent_int=\count310
-\l_fp_input_a_sign_int=\count311
-\l_fp_input_a_integer_int=\count312
-\l_fp_input_a_decimal_int=\count313
-\l_fp_input_a_exponent_int=\count314
-\l_fp_input_b_sign_int=\count315
-\l_fp_input_b_integer_int=\count316
-\l_fp_input_b_decimal_int=\count317
-\l_fp_input_b_exponent_int=\count318
-\l_fp_input_a_extended_int=\count319
-\l_fp_input_b_extended_int=\count320
-\l_fp_mul_a_i_int=\count321
-\l_fp_mul_a_ii_int=\count322
-\l_fp_mul_a_iii_int=\count323
-\l_fp_mul_a_iv_int=\count324
-\l_fp_mul_a_v_int=\count325
-\l_fp_mul_a_vi_int=\count326
-\l_fp_mul_b_i_int=\count327
-\l_fp_mul_b_ii_int=\count328
-\l_fp_mul_b_iii_int=\count329
-\l_fp_mul_b_iv_int=\count330
-\l_fp_mul_b_v_int=\count331
-\l_fp_mul_b_vi_int=\count332
-\l_fp_mul_output_int=\count333
-\l_fp_output_sign_int=\count334
-\l_fp_output_integer_int=\count335
-\l_fp_output_decimal_int=\count336
-\l_fp_output_exponent_int=\count337
-\l_fp_output_extended_int=\count338
-\l_fp_round_position_int=\count339
-\l_fp_round_target_int=\count340
-\l_fp_split_sign_int=\count341
-\l_fp_internal_int=\count342
-\l_fp_trig_octant_int=\count343
-\l_fp_trig_sign_int=\count344
-\l_fp_trig_decimal_int=\count345
-\l_fp_trig_extended_int=\count346
-\l_fp_internal_dim=\dimen261
-\l_fp_internal_skip=\skip267
+Package: l3fp 2013/07/09 v4521 L3 Floating points
+\c__fp_leading_shift_int=\count311
+\c__fp_middle_shift_int=\count312
+\c__fp_trailing_shift_int=\count313
+\c__fp_big_leading_shift_int=\count314
+\c__fp_big_middle_shift_int=\count315
+\c__fp_big_trailing_shift_int=\count316
+\c__fp_Bigg_leading_shift_int=\count317
+\c__fp_Bigg_middle_shift_int=\count318
+\c__fp_Bigg_trailing_shift_int=\count319
 )
 (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3box.sty
-Package: l3box 2012/03/04 v3490 L3 Experimental boxes
-\l_tmpb_box=\box256
-\l_box_top_dim=\dimen262
-\l_box_bottom_dim=\dimen263
-\l_box_left_dim=\dimen264
-\l_box_right_dim=\dimen265
-\l_box_top_new_dim=\dimen266
-\l_box_bottom_new_dim=\dimen267
-\l_box_left_new_dim=\dimen268
-\l_box_right_new_dim=\dimen269
-\l_box_internal_box=\box257
+Package: l3box 2013/04/24 v4482 L3 Experimental boxes
+\c_empty_box=\box264
+\l_tmpa_box=\box265
+\l_tmpb_box=\box266
+\g_tmpa_box=\box267
+\g_tmpb_box=\box268
 )
 (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3coffins.sty
-Package: l3coffins 2012/03/03 v3482 L3 Experimental coffin code layer
-\l_coffin_internal_box=\box258
-\l_coffin_internal_dim=\dimen270
-\l_coffin_offset_x_dim=\dimen271
-\l_coffin_offset_y_dim=\dimen272
-\l_coffin_x_dim=\dimen273
-\l_coffin_y_dim=\dimen274
-\l_coffin_x_prime_dim=\dimen275
-\l_coffin_y_prime_dim=\dimen276
-\l_coffin_Depth_dim=\dimen277
-\l_coffin_Height_dim=\dimen278
-\l_coffin_TotalHeight_dim=\dimen279
-\l_coffin_Width_dim=\dimen280
-\c_empty_coffin=\box259
-\l_coffin_aligned_coffin=\box260
-\l_coffin_aligned_internal_coffin=\box261
-\l_coffin_bounding_shift_dim=\dimen281
-\l_coffin_left_corner_dim=\dimen282
-\l_coffin_right_corner_dim=\dimen283
-\l_coffin_bottom_corner_dim=\dimen284
-\l_coffin_top_corner_dim=\dimen285
-\l_coffin_scaled_total_height_dim=\dimen286
-\l_coffin_scaled_width_dim=\dimen287
-\l_coffin_display_coffin=\box262
-\l_coffin_display_coord_coffin=\box263
-\l_coffin_display_pole_coffin=\box264
-\l_coffin_display_offset_dim=\dimen288
-\l_coffin_display_x_dim=\dimen289
-\l_coffin_display_y_dim=\dimen290
+Package: l3coffins 2012/09/09 v4212 L3 Coffin code layer
+\l__coffin_internal_box=\box269
+\l__coffin_internal_dim=\dimen303
+\l__coffin_offset_x_dim=\dimen304
+\l__coffin_offset_y_dim=\dimen305
+\l__coffin_x_dim=\dimen306
+\l__coffin_y_dim=\dimen307
+\l__coffin_x_prime_dim=\dimen308
+\l__coffin_y_prime_dim=\dimen309
+\c_empty_coffin=\box270
+\l__coffin_aligned_coffin=\box271
+\l__coffin_aligned_internal_coffin=\box272
+\l_tmpa_coffin=\box273
+\l_tmpb_coffin=\box274
+\l__coffin_display_coffin=\box275
+\l__coffin_display_coord_coffin=\box276
+\l__coffin_display_pole_coffin=\box277
+\l__coffin_display_offset_dim=\dimen310
+\l__coffin_display_x_dim=\dimen311
+\l__coffin_display_y_dim=\dimen312
 )
 (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3color.sty
-Package: l3color 2011/09/07 v2776 L3 Experimental colour support
+Package: l3color 2012/08/29 v4156 L3 Experimental color support
 )
 (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3luatex.sty
-Package: l3luatex 2012/02/09 v3355 L3 Experimental LuaTeX-specific functions
-\g_cctab_allocate_int=\count347
-\g_cctab_stack_int=\count348
+Package: l3luatex 2012/08/03 v4049 L3 Experimental LuaTeX-specific functions
+\g__cctab_allocate_int=\count320
+\g__cctab_stack_int=\count321
 \c_code_cctab=\catcodetable9
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3candidates.sty
+Package: l3candidates 2013/07/09 v4521 L3 Experimental additions to l3kernel
+\l__box_top_dim=\dimen313
+\l__box_bottom_dim=\dimen314
+\l__box_left_dim=\dimen315
+\l__box_right_dim=\dimen316
+\l__box_top_new_dim=\dimen317
+\l__box_bottom_new_dim=\dimen318
+\l__box_left_new_dim=\dimen319
+\l__box_right_new_dim=\dimen320
+\l__box_internal_box=\box278
+\l__coffin_bounding_shift_dim=\dimen321
+\l__coffin_left_corner_dim=\dimen322
+\l__coffin_right_corner_dim=\dimen323
+\l__coffin_bottom_corner_dim=\dimen324
+\l__coffin_top_corner_dim=\dimen325
+\l__coffin_scaled_total_height_dim=\dimen326
+\l__coffin_scaled_width_dim=\dimen327
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
-Package: xparse 2012/04/23 v3570 L3 Experimental document command parser
-\l_xparse_current_arg_int=\count349
-\l_xparse_m_args_int=\count350
-\l_xparse_mandatory_args_int=\count351
-\l_xparse_processor_int=\count352
-\l_xparse_v_nesting_int=\count353
-)
-(/usr/share/texlive/texmf-dist/tex/luatex/luaotfload/luaotfload.sty
-Package: luaotfload 2012/05/28 v1.27 OpenType layout system
-
-(/usr/share/texlive/texmf-dist/tex/luatex/lualibs/lualibs.lua)
-Lua module: lualibs 2011/01/20 0.96 Lua additional functions.
-
-(/usr/share/texlive/texmf-dist/tex/luatex/lualibs/lualibs-string.lua)
-(/usr/share/texlive/texmf-dist/tex/luatex/lualibs/lualibs-lpeg.lua)
-(/usr/share/texlive/texmf-dist/tex/luatex/lualibs/lualibs-boolean.lua)
-(/usr/share/texlive/texmf-dist/tex/luatex/lualibs/lualibs-number.lua)
-(/usr/share/texlive/texmf-dist/tex/luatex/lualibs/lualibs-math.lua)
-(/usr/share/texlive/texmf-dist/tex/luatex/lualibs/lualibs-table.lua)
-(/usr/share/texlive/texmf-dist/tex/luatex/lualibs/lualibs-aux.lua)
-(/usr/share/texlive/texmf-dist/tex/luatex/lualibs/lualibs-io.lua)
-(/usr/share/texlive/texmf-dist/tex/luatex/lualibs/lualibs-os.lua)
-(/usr/share/texlive/texmf-dist/tex/luatex/lualibs/lualibs-file.lua)
-(/usr/share/texlive/texmf-dist/tex/luatex/lualibs/lualibs-md5.lua)
-(/usr/share/texlive/texmf-dist/tex/luatex/lualibs/lualibs-dir.lua)
-(/usr/share/texlive/texmf-dist/tex/luatex/lualibs/lualibs-unicode.lua)
-(/usr/share/texlive/texmf-dist/tex/luatex/lualibs/lualibs-utils.lua)
-(/usr/share/texlive/texmf-dist/tex/luatex/lualibs/lualibs-dimen.lua)
-(/usr/share/texlive/texmf-dist/tex/luatex/lualibs/lualibs-url.lua)
-(/usr/share/texlive/texmf-dist/tex/luatex/lualibs/lualibs-set.lua)
-(/usr/share/texlive/texmf-dist/tex/luatex/luaotfload/luaotfload.lua)
-Lua module: luaotfload 2012/05/28 1.27 OpenType layout system.
-luaotfload: loading file /usr/share/texlive/texmf-dist/tex/luatex/luaotfload/ot
-fl-luat-dum.lua.(using cache: /home/ftherese/.texmf-var/luatex-cache/generic)
-luaotfload: loading file /usr/share/texlive/texmf-dist/tex/luatex/luaotfload/ot
-fl-luat-ovr.lua.
-luaotfload: loading file /usr/share/texlive/texmf-dist/tex/luatex/luaotfload/ot
-fl-data-con.lua.
-luaotfload: loading file /usr/share/texlive/texmf-dist/tex/luatex/luaotfload/ot
-fl-font-ini.lua.
-luaotfload: loading file /usr/share/texlive/texmf-dist/tex/luatex/luaotfload/ot
-fl-node-dum.lua.
-luaotfload: loading file /usr/share/texlive/texmf-dist/tex/luatex/luaotfload/ot
-fl-node-inj.lua.
-luaotfload: loading file /usr/share/texlive/texmf-dist/tex/luatex/luaotfload/ot
-fl-font-tfm.lua.
-luatexbase.attributes["otfl@state"] = 1
-luaotfload: loading file /usr/share/texlive/texmf-dist/tex/luatex/luaotfload/ot
-fl-font-cid.lua.
-luaotfload: loading file /usr/share/texlive/texmf-dist/tex/luatex/luaotfload/ot
-fl-font-ott.lua.
-luaotfload: loading file /usr/share/texlive/texmf-dist/tex/luatex/luaotfload/ot
-fl-font-map.lua.
-luaotfload: loading file /usr/share/texlive/texmf-dist/tex/luatex/luaotfload/ot
-fl-font-otf.lua.
-luaotfload: loading file /usr/share/texlive/texmf-dist/tex/luatex/luaotfload/ot
-fl-font-otd.lua.
-luaotfload: loading file /usr/share/texlive/texmf-dist/tex/luatex/luaotfload/ot
-fl-font-oti.lua.
-luaotfload: loading file /usr/share/texlive/texmf-dist/tex/luatex/luaotfload/ot
-fl-font-otb.lua.
-luaotfload: loading file /usr/share/texlive/texmf-dist/tex/luatex/luaotfload/ot
-fl-font-otn.lua.
-luatexbase.attributes["otfl@markbase"] = 2
-luatexbase.attributes["otfl@markmark"] = 3
-luatexbase.attributes["otfl@markdone"] = 4
-luatexbase.attributes["otfl@cursbase"] = 5
-luatexbase.attributes["otfl@curscurs"] = 6
-luatexbase.attributes["otfl@cursdone"] = 7
-luatexbase.attributes["otfl@kernpair"] = 8
-luaotfload: loading file /usr/share/texlive/texmf-dist/tex/luatex/luaotfload/ot
-fl-font-ota.lua.
-luaotfload: loading file /usr/share/texlive/texmf-dist/tex/luatex/luaotfload/ot
-fl-font-otc.lua.
-luaotfload: loading file /usr/share/texlive/texmf-dist/tex/luatex/luaotfload/ot
-fl-font-def.lua.
-luaotfload: loading file /usr/share/texlive/texmf-dist/tex/luatex/luaotfload/ot
-fl-font-xtx.lua.
-luaotfload: loading file /usr/share/texlive/texmf-dist/tex/luatex/luaotfload/ot
-fl-font-dum.lua.
-luaotfload: loading file /usr/share/texlive/texmf-dist/tex/luatex/luaotfload/ot
-fl-font-nms.lua.
-luaotfload: loading file /usr/share/texlive/texmf-dist/tex/luatex/luaotfload/ot
-fl-font-clr.lua.
-Module luatexbase-mcb info: creating 'luaotfload.patch_font' type 4
-Module luatexbase-mcb info: inserting 'luaotfload.pre_linebreak_filter'
-(luatexbase-mcb)            at position 1 in 'pre_linebreak_filter'
-Module luatexbase-mcb info: inserting 'luaotfload.hpack_filter'
-(luatexbase-mcb)            at position 1 in 'hpack_filter'
-Module luatexbase-mcb info: resetting callback 'define_font'
-Module luatexbase-mcb info: inserting 'luaotfload.define_font'
-(luatexbase-mcb)            at position 1 in 'define_font'
-Module luatexbase-mcb info: inserting 'luaotfload.find_vf_file'
-(luatexbase-mcb)            at position 1 in 'find_vf_file'
-Module luatexbase-mcb info: inserting 'unicodemath.set_sscale_diments'
-(luatexbase-mcb)            at position 1 in 'luaotfload.patch_font'
+Package: xparse 2013/07/12 v4544 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count322
+\l__xparse_m_args_int=\count323
+\l__xparse_mandatory_args_int=\count324
+\l__xparse_processor_int=\count325
+\l__xparse_v_nesting_int=\count326
 )
 (/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.lua)
-Lua module: fontspec 2009/12/04 2 Advanced font selection for LuaLaTeX.
+Lua module: fontspec 2013/05/20 2.3c Advanced font selection for LuaLaTeX.
+\l_fontspec_script_int=\count327
+\l_fontspec_language_int=\count328
+\l_fontspec_strnum_int=\count329
+\l_fontspec_tmpa_dim=\dimen328
+\l_fontspec_tmpb_dim=\dimen329
+\l_fontspec_tmpc_dim=\dimen330
+Variant \tl_gset:cV already defined; not changing it on line 69
 
-Module luatexbase-mcb info: inserting 'fontspec.set_capheight'
-(luatexbase-mcb)            at position 2 in 'luaotfload.patch_font'
-\l_fontspec_script_int=\count354
-\l_fontspec_language_int=\count355
-\l_fontspec_strnum_int=\count356
-\l_fontspec_tmpa_dim=\dimen291
-\l_fontspec_tmpb_dim=\dimen292
-\l_fontspec_tmpc_dim=\dimen293
-Variant \tl_gset:cV already defined; not changing it on line 66
 (/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec-patches.sty
-Package: fontspec-patches 2012/05/06 v2.2b Advanced font selection for XeLaTeX/
-LuaLaTeX
+Package: fontspec-patches 2013/05/20 v2.3c Font selection for XeLaTeX and LuaLaT
+eX
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/fixltx2e.sty
 Package: fixltx2e 2006/09/13 v1.1m fixes to LaTeX
@@ -1024,22 +975,22 @@ LaTeX Info: Redefining \em on input line 420.
 LaTeX Info: Redefining \textsubscript on input line 424.
 )
 LaTeX Info: Redefining \em on input line 22.
-LaTeX Info: Redefining \emph on input line 29.
-LaTeX Info: Redefining \- on input line 32.
+LaTeX Info: Redefining \emph on input line 30.
+LaTeX Info: Redefining \- on input line 33.
 
 *************************************************
 * LaTeX warning: "xparse/redefine-command"
 * 
-* Redefining document command \oldstylenums with arg. spec. 'm' on line 107.
+* Redefining document command \oldstylenums with arg. spec. 'm' on line 128.
 *************************************************
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \liningnums with arg. spec. 'm' on line 111.
+. Defining document command \liningnums with arg. spec. 'm' on line 132.
 .................................................
 ) (/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec-luatex.sty
-Package: fontspec-luatex 2012/05/06 v2.2b Advanced font selection for XeLaTeX/L
-uaLaTeX
+Package: fontspec-luatex 2013/05/20 v2.3c Font selection for XeLaTeX and LuaLaTe
+X
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
@@ -1051,153 +1002,158 @@ NowhandlingfontencodingEU2...
 )
 LaTeX Font Info:    Try loading font information for EU2+lmr on input line 100.
 
-
 (/usr/share/texlive/texmf-dist/tex/latex/euenc/eu2lmr.fd
 File: eu2lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-luaotfload | load font: auto-selecting default features for script: dflt (was l
-atn)(load: /home/ftherese/.texmf-var/luatex-cache/generic/fonts/otf/temp-lmroma
-n10-regular.lua))
+luaotfload | load : auto-selecting default features for script: latn
+luaotfload | load : no defaults for script “latn”, falling back to “dflt
+”(load luc: /home/ftherese/.texmf-var/luatex-cache/generic/fonts/otf/lmroman10
+-regular.luc))
 (/usr/share/texlive/texmf-dist/tex/xelatex/xunicode/xunicode.sty
-File: xunicode.sty 2011/09/09 v0.981 provides access to latin accents and many 
-other characters in Unicode lower plane
+File: xunicode.sty 2011/09/09 v0.981 provides access to latin accents and many o
+ther characters in Unicode lower plane
 
 (/usr/share/texmf/tex/latex/tipa/t3enc.def
 File: t3enc.def 2001/12/31 T3 encoding
 NowhandlingfontencodingT3...
 ...noUTF-8mappingfileforfontencodingT3
-luaotfload | load font: auto-selecting default features for script: dflt (was l
-atn)(load: /home/ftherese/.texmf-var/luatex-cache/generic/fonts/otf/temp-lmroma
-nslant10-regular.lua)
-luaotfload | load font: auto-selecting default features for script: dflt (was l
-atn)(load: /home/ftherese/.texmf-var/luatex-cache/generic/fonts/otf/temp-lmroma
-n10-italic.lua)
-luaotfload | load font: auto-selecting default features for script: dflt (was l
-atn)(load: /home/ftherese/.texmf-var/luatex-cache/generic/fonts/otf/temp-lmroma
-n10-bold.lua)
-LaTeX Font Info:    Try loading font information for EU2+lmss on input line 357
-.
+luaotfload | load : auto-selecting default features for script: latn
+luaotfload | load : no defaults for script “latn”, falling back to “dflt
+”(load luc: /home/ftherese/.texmf-var/luatex-cache/generic/fonts/otf/lmromansl
+ant10-regular.luc)
+luaotfload | load : auto-selecting default features for script: latn
+luaotfload | load : no defaults for script “latn”, falling back to “dflt
+”(load luc: /home/ftherese/.texmf-var/luatex-cache/generic/fonts/otf/lmroman10
+-italic.luc)
+luaotfload | load : auto-selecting default features for script: latn
+luaotfload | load : no defaults for script “latn”, falling back to “dflt
+”(load luc: /home/ftherese/.texmf-var/luatex-cache/generic/fonts/otf/lmroman10
+-bold.luc)
+LaTeX Font Info:    Try loading font information for EU2+lmss on input line 357.
+
+
 (/usr/share/texlive/texmf-dist/tex/latex/euenc/eu2lmss.fd
 File: eu2lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-luaotfload | load font: auto-selecting default features for script: dflt (was l
-atn)(load: /home/ftherese/.texmf-var/luatex-cache/generic/fonts/otf/temp-lmsans
-10-regular.lua))
-\tipaTiiicode=\count357
+luaotfload | load : auto-selecting default features for script: latn
+luaotfload | load : no defaults for script “latn”, falling back to “dflt
+”(load luc: /home/ftherese/.texmf-var/luatex-cache/generic/fonts/otf/lmsans10-
+regular.luc))
+\tipaTiiicode=\count330
 \tipasavetokens=\toks27
 \tipachecktokens=\toks28
 )
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \fontspec with arg. spec. 'O{}m' on line 42.
+. Defining document command \fontspec with arg. spec. 'O{}m' on line 44.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \setmainfont with arg. spec. 'O{}m' on line 46.
+. Defining document command \setmainfont with arg. spec. 'O{}m' on line 49.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \setsansfont with arg. spec. 'O{}m' on line 50.
+. Defining document command \setsansfont with arg. spec. 'O{}m' on line 54.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \setmonofont with arg. spec. 'O{}m' on line 54.
+. Defining document command \setmonofont with arg. spec. 'O{}m' on line 59.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \setmathrm with arg. spec. 'O{}m' on line 62.
+. Defining document command \setmathrm with arg. spec. 'O{}m' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \setboldmathrm with arg. spec. 'O{}m' on line 65.
+. Defining document command \setboldmathrm with arg. spec. 'O{}m' on line 72.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \setmathsf with arg. spec. 'O{}m' on line 68.
+. Defining document command \setmathsf with arg. spec. 'O{}m' on line 76.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \setmathtt with arg. spec. 'O{}m' on line 71.
+. Defining document command \setmathtt with arg. spec. 'O{}m' on line 80.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \newfontfamily with arg. spec. 'mO{}m' on line 87.
+. Defining document command \newfontfamily with arg. spec. 'mO{}m' on line 99.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \newfontface with arg. spec. 'mO{}m' on line 90.
+. Defining document command \newfontface with arg. spec. 'mO{}m' on line 103.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \defaultfontfeatures with arg. spec. 'm' on line
-. 94.
+. Defining document command \defaultfontfeatures with arg. spec. 'om' on line
+. 111.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \addfontfeatures with arg. spec. 'm' on line 110.
+. Defining document command \addfontfeatures with arg. spec. 'm' on line 147.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \newfontfeature with arg. spec. 'mm' on line 121.
+. Defining document command \newfontfeature with arg. spec. 'mm' on line 159.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \newAATfeature with arg. spec. 'mmmm' on line 128.
+. Defining document command \newAATfeature with arg. spec. 'mmmm' on line 167.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \newICUfeature with arg. spec. 'mmm' on line 135.
+. Defining document command \newICUfeature with arg. spec. 'mmm' on line 175.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
 . Defining document command \aliasfontfeature with arg. spec. 'mm' on line
-. 162.
+. 204.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
 . Defining document command \aliasfontfeatureoption with arg. spec. 'mmm' on
-. line 167.
+. line 206.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \newfontscript with arg. spec. 'mm' on line 172.
+. Defining document command \newfontscript with arg. spec. 'mm' on line 211.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \newfontlanguage with arg. spec. 'mm' on line 195.
+. Defining document command \newfontlanguage with arg. spec. 'mm' on line 238.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
 . Defining document command \DeclareFontsExtensions with arg. spec. 'm' on
-. line 214.
+. line 259.
 .................................................
-Variant \prop_gput:cnV already defined; not changing it on line 489
-Variant \prop_gput:cnx already defined; not changing it on line 490
-\l_fontspec_tmp_int=\count358
-LaTeX Info: Redefining \itshape on input line 1819.
-LaTeX Info: Redefining \slshape on input line 1823.
-LaTeX Info: Redefining \scshape on input line 1827.
-LaTeX Info: Redefining \upshape on input line 1831.
+Variant \prop_gput:cnV already defined; not changing it on line 586
+Variant \prop_gput:cnx already defined; not changing it on line 587
+\l_fontspec_tmp_int=\count331
+LaTeX Info: Redefining \itshape on input line 2008.
+LaTeX Info: Redefining \slshape on input line 2013.
+LaTeX Info: Redefining \scshape on input line 2018.
+LaTeX Info: Redefining \upshape on input line 2023.
 
 (/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
 (/usr/share/texmf/tex/latex/lm/lmodern.sty
@@ -1236,7 +1192,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
-\Urlmuskip=\muskip10
+\Urlmuskip=\muskip16
 Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/pdfcolmk.sty
@@ -1251,7 +1207,7 @@ Package pdfcolmk Info: The color stack of pdfTeX >= 1.40 is used. Therefore
 \pgfutil@everybye=\toks29
 )
 (/usr/share/texmf/tex/generic/pgf/utilities/pgfutil-latex.def
-\pgfutil@abb=\box265
+\pgfutil@abb=\box279
 
 (/usr/share/texlive/texmf-dist/tex/latex/ms/everyshi.sty
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
@@ -1273,20 +1229,20 @@ Package: pgfsys 2010/06/30 v2.10 (rcs-revision 1.37)
 (/usr/share/texmf/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
 \pgfkeys@tmptoks=\toks32
 ))
-\pgf@x=\dimen294
-\pgf@y=\dimen295
-\pgf@xa=\dimen296
-\pgf@ya=\dimen297
-\pgf@xb=\dimen298
-\pgf@yb=\dimen299
-\pgf@xc=\dimen300
-\pgf@yc=\dimen301
+\pgf@x=\dimen331
+\pgf@y=\dimen332
+\pgf@xa=\dimen333
+\pgf@ya=\dimen334
+\pgf@xb=\dimen335
+\pgf@yb=\dimen336
+\pgf@xc=\dimen337
+\pgf@yc=\dimen338
 \w@pgf@writea=\write5
 \r@pgf@reada=\read2
-\c@pgf@counta=\count359
-\c@pgf@countb=\count360
-\c@pgf@countc=\count361
-\c@pgf@countd=\count362
+\c@pgf@counta=\count332
+\c@pgf@countb=\count333
+\c@pgf@countc=\count334
+\c@pgf@countd=\count335
 
 (/usr/share/texmf/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
@@ -1301,8 +1257,8 @@ File: pgfsys-common-pdf.def 2008/05/19  (rcs-revision 1.10)
 )))
 (/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2008/07/18  (rcs-revision 1.7)
-\pgfsyssoftpath@smallbuffer@items=\count363
-\pgfsyssoftpath@bigbuffer@items=\count364
+\pgfsyssoftpath@smallbuffer@items=\count336
+\pgfsyssoftpath@bigbuffer@items=\count337
 )
 (/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
@@ -1314,9 +1270,9 @@ Package: pgfcore 2010/04/11 v2.10 (rcs-revision 1.7)
 (/usr/share/texmf/tex/generic/pgf/math/pgfmathcalc.code.tex
 (/usr/share/texmf/tex/generic/pgf/math/pgfmathutil.code.tex)
 (/usr/share/texmf/tex/generic/pgf/math/pgfmathparser.code.tex
-\pgfmath@dimen=\dimen302
-\pgfmath@count=\count365
-\pgfmath@box=\box266
+\pgfmath@dimen=\dimen339
+\pgfmath@count=\count338
+\pgfmath@box=\box280
 \pgfmath@toks=\toks33
 \pgfmath@stack@operand=\toks34
 \pgfmath@stack@operation=\toks35
@@ -1330,51 +1286,51 @@ Package: pgfcore 2010/04/11 v2.10 (rcs-revision 1.7)
 (/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.round.code.tex)
 (/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex)))
 (/usr/share/texmf/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count366
+\c@pgfmathroundto@lastzeros=\count339
 ))
 (/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2010/04/09  (rcs-revision 1.20)
-\pgf@picminx=\dimen303
-\pgf@picmaxx=\dimen304
-\pgf@picminy=\dimen305
-\pgf@picmaxy=\dimen306
-\pgf@pathminx=\dimen307
-\pgf@pathmaxx=\dimen308
-\pgf@pathminy=\dimen309
-\pgf@pathmaxy=\dimen310
-\pgf@xx=\dimen311
-\pgf@xy=\dimen312
-\pgf@yx=\dimen313
-\pgf@yy=\dimen314
-\pgf@zx=\dimen315
-\pgf@zy=\dimen316
+\pgf@picminx=\dimen340
+\pgf@picmaxx=\dimen341
+\pgf@picminy=\dimen342
+\pgf@picmaxy=\dimen343
+\pgf@pathminx=\dimen344
+\pgf@pathmaxx=\dimen345
+\pgf@pathminy=\dimen346
+\pgf@pathmaxy=\dimen347
+\pgf@xx=\dimen348
+\pgf@xy=\dimen349
+\pgf@yx=\dimen350
+\pgf@yy=\dimen351
+\pgf@zx=\dimen352
+\pgf@zy=\dimen353
 )
 (/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
 File: pgfcorepathconstruct.code.tex 2010/08/03  (rcs-revision 1.24)
-\pgf@path@lastx=\dimen317
-\pgf@path@lasty=\dimen318
+\pgf@path@lastx=\dimen354
+\pgf@path@lasty=\dimen355
 )
 (/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
 File: pgfcorepathusage.code.tex 2008/04/22  (rcs-revision 1.12)
-\pgf@shorten@end@additional=\dimen319
-\pgf@shorten@start@additional=\dimen320
+\pgf@shorten@end@additional=\dimen356
+\pgf@shorten@start@additional=\dimen357
 )
 (/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
 File: pgfcorescopes.code.tex 2010/09/08  (rcs-revision 1.34)
-\pgfpic=\box267
-\pgf@hbox=\box268
-\pgf@layerbox@main=\box269
-\pgf@picture@serial@count=\count367
+\pgfpic=\box281
+\pgf@hbox=\box282
+\pgf@layerbox@main=\box283
+\pgf@picture@serial@count=\count340
 )
 (/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2008/04/22  (rcs-revision 1.9)
-\pgflinewidth=\dimen321
+\pgflinewidth=\dimen358
 )
 (/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
 File: pgfcoretransformations.code.tex 2009/06/10  (rcs-revision 1.11)
-\pgf@pt@x=\dimen322
-\pgf@pt@y=\dimen323
-\pgf@pt@temp=\dimen324
+\pgf@pt@x=\dimen359
+\pgf@pt@y=\dimen360
+\pgf@pt@temp=\dimen361
 )
 (/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
@@ -1390,15 +1346,15 @@ File: pgfcorearrows.code.tex 2008/04/23  (rcs-revision 1.11)
 )
 (/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2008/11/23  (rcs-revision 1.13)
-\pgf@max=\dimen325
-\pgf@sys@shading@range@num=\count368
+\pgf@max=\dimen362
+\pgf@sys@shading@range@num=\count341
 )
 (/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2010/03/25  (rcs-revision 1.16)
 
 (/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
 File: pgfcoreexternal.code.tex 2010/09/01  (rcs-revision 1.17)
-\pgfexternal@startupbox=\box270
+\pgfexternal@startupbox=\box284
 ))
 (/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
 File: pgfcorelayers.code.tex 2010/08/27  (rcs-revision 1.2)
@@ -1411,15 +1367,15 @@ File: pgfcorepatterns.code.tex 2009/07/02  (rcs-revision 1.3)
 )))
 (/usr/share/texmf/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2010/09/09  (rcs-revision 1.13)
-\pgfnodeparttextbox=\box271
+\pgfnodeparttextbox=\box285
 )
 (/usr/share/texmf/tex/generic/pgf/modules/pgfmoduleplot.code.tex
 File: pgfmoduleplot.code.tex 2010/10/22  (rcs-revision 1.8)
 )
 (/usr/share/texmf/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
 Package: pgfcomp-version-0-65 2007/07/03 v2.10 (rcs-revision 1.7)
-\pgf@nodesepstart=\dimen326
-\pgf@nodesepend=\dimen327
+\pgf@nodesepstart=\dimen363
+\pgf@nodesepend=\dimen364
 )
 (/usr/share/texmf/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
 Package: pgfcomp-version-1-18 2007/07/23 v2.10 (rcs-revision 1.1)
@@ -1429,8 +1385,8 @@ Package: pgfcomp-version-1-18 2007/07/23 v2.10 (rcs-revision 1.1)
 (/usr/share/texmf/tex/generic/pgf/utilities/pgfkeys.code.tex))
 (/usr/share/texmf/tex/generic/pgf/utilities/pgffor.code.tex
 Package: pgffor 2010/03/23 v2.10 (rcs-revision 1.18)
-\pgffor@iter=\dimen328
-\pgffor@skip=\dimen329
+\pgffor@iter=\dimen365
+\pgffor@skip=\dimen366
 \pgffor@stack=\toks36
 \pgffor@toks=\toks37
 ))
@@ -1439,29 +1395,29 @@ Package: tikz 2010/10/13 v2.10 (rcs-revision 1.76)
 
 (/usr/share/texmf/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2010/05/31 v2.10 (rcs-revision 1.15)
-\pgf@plot@mark@count=\count369
-\pgfplotmarksize=\dimen330
+\pgf@plot@mark@count=\count342
+\pgfplotmarksize=\dimen367
 )
-\tikz@lastx=\dimen331
-\tikz@lasty=\dimen332
-\tikz@lastxsaved=\dimen333
-\tikz@lastysaved=\dimen334
-\tikzleveldistance=\dimen335
-\tikzsiblingdistance=\dimen336
-\tikz@figbox=\box272
-\tikz@tempbox=\box273
-\tikztreelevel=\count370
-\tikznumberofchildren=\count371
-\tikznumberofcurrentchild=\count372
-\tikz@fig@count=\count373
+\tikz@lastx=\dimen368
+\tikz@lasty=\dimen369
+\tikz@lastxsaved=\dimen370
+\tikz@lastysaved=\dimen371
+\tikzleveldistance=\dimen372
+\tikzsiblingdistance=\dimen373
+\tikz@figbox=\box286
+\tikz@tempbox=\box287
+\tikztreelevel=\count343
+\tikznumberofchildren=\count344
+\tikznumberofcurrentchild=\count345
+\tikz@fig@count=\count346
 
 (/usr/share/texmf/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2010/08/24  (rcs-revision 1.4)
-\pgfmatrixcurrentrow=\count374
-\pgfmatrixcurrentcolumn=\count375
-\pgf@matrix@numberofcolumns=\count376
+\pgfmatrixcurrentrow=\count347
+\pgfmatrixcurrentcolumn=\count348
+\pgf@matrix@numberofcolumns=\count349
 )
-\tikz@expandcount=\count377
+\tikz@expandcount=\count350
 
 (/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopat
 hs.code.tex
@@ -1473,12 +1429,14 @@ LaTeX Font Info:    Try loading font information for U+pzd on input line 63.
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/upzd.fd
 File: upzd.fd 2001/06/04 font definitions for U/pzd.
 )
+luaotfload | load : auto-selecting default features for script: dflt
 LaTeX Font Info:    Try loading font information for U+psy on input line 64.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/upsy.fd
 File: upsy.fd 2001/06/04 font definitions for U/psy.
-))
-\drop=\skip268
+)
+luaotfload | load : auto-selecting default features for script: dflt)
+\drop=\skip310
 
 
 ******************************************************
@@ -1491,7 +1449,7 @@ Upper and lower margins: 25.6073pt and 16.90033pt
 Headheight and headsep: 6.8pt and 13.6pt
 Footskip: 6.8pt
 Columnsep and columnseprule: 10pt and 0pt
-Marginparsep and marginparwidth: 7pt and 51pt
+Marginparsep and marginparwidth: 7pt and 1pt
 Sidecapsep and sidecapwidth: 7pt and 51pt
 Sidebarhsep and sidebarwidth: 7pt and 51pt
 Sidebarvsep and sidebartopsep: 13.6pt and 0pt
@@ -1500,7 +1458,18 @@ Sidefoothsep and sidefootwidth: 7pt and 51pt
 Sidefootvsep and sidefootheight: 13.6pt and 349.52011pt
 ******************************************************
 
-(./main-sanctSacra.aux)
+(./main-sanctSacra.aux
+
+! Package babel Error: You haven't defined the language latin yet.
+
+See the babel package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 \select@language{latin}
+                         
+? 
+)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 90.
 LaTeX Font Info:    ... okay on input line 90.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 90.
@@ -1521,20 +1490,21 @@ LaTeX Font Info:    Try loading font information for T3+cmr on input line 90.
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
 LaTeX Font Info:    ... okay on input line 90.
-luaotfload | load font: auto-selecting default features for script: dflt (was l
-atn)
+luaotfload | load : auto-selecting default features for script: latn
+luaotfload | load : no defaults for script “latn”, falling back to “dflt
+”
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count378
-\scratchdimen=\dimen337
-\scratchbox=\box274
-\nofMPsegments=\count379
-\nofMParguments=\count380
+\scratchcounter=\count351
+\scratchdimen=\dimen374
+\scratchbox=\box288
+\nofMPsegments=\count352
+\nofMParguments=\count353
 \everyMPshowfont=\toks38
-\MPscratchCnt=\count381
-\MPscratchDim=\dimen338
-\MPnumerator=\count382
-\makeMPintoPDFobject=\count383
+\MPscratchCnt=\count354
+\MPscratchDim=\dimen375
+\MPnumerator=\count355
+\makeMPintoPDFobject=\count356
 \everyMPtoPDFconversion=\toks39
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
@@ -1555,13 +1525,13 @@ Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
 Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
 )))
 Package grfext Info: Graphics extension search list:
-(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG
+,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 452.
 
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+
 ))
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1584,7 +1554,7 @@ e
 * \headsep=13.6pt
 * \topskip=11.0pt
 * \footskip=6.8pt
-* \marginparwidth=51.0pt
+* \marginparwidth=1.0pt
 * \marginparsep=7.0pt
 * \columnsep=10.0pt
 * \skip\footins=12.0pt plus 4.0pt minus 4.0pt
@@ -1598,9 +1568,12 @@ e
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 ABD: EveryShipout initializing macros
-luaotfload | load font: auto-selecting default features for script: dflt (was l
-atn)(load: /home/ftherese/.texmf-var/luatex-cache/generic/fonts/otf/temp-lmroma
-n17-regular.lua)
+luaotfload | load : auto-selecting default features for script: latn
+luaotfload | load : no defaults for script “latn”, falling back to “dflt
+”
+luaotfload | load : loading the Adobe glyph list(save: /home/ftherese/.texmf-var
+/luatex-cache/generic/fonts/otf/lmroman17-regular.lua)(save: /home/ftherese/.tex
+mf-var/luatex-cache/generic/fonts/otf/lmroman17-regular.luc)
 LaTeX Font Info:    Try loading font information for U+webo on input line 92.
 
 (/usr/local/share/texmf/tex/latex/webomints/uwebo.fd
@@ -1608,84 +1581,106 @@ File: uwebo.fd 2002/05/28 font definitions for U/webo.
 )
 LaTeX Font Info:    Font shape `U/webo/xl/n' will be
 (Font)              scaled to size 11.99997pt on input line 92.
-luaotfload | load font: auto-selecting default features for script: dflt (was l
-atn)(load: /home/ftherese/.texmf-var/luatex-cache/generic/fonts/otf/temp-lmroma
-n12-regular.lua)
-luaotfload | load font: auto-selecting default features for script: dflt (was l
-atn)(load: /home/ftherese/.texmf-var/luatex-cache/generic/fonts/otf/temp-lmroma
-n12-italic.lua)
-luaotfload | load font: auto-selecting default features for script: dflt (was l
-atn)(load: /home/ftherese/.texmf-var/luatex-cache/generic/fonts/otf/temp-lmroma
-ncaps10-regular.lua) [1
+luaotfload | load : auto-selecting default features for script: dflt
+luaotfload | load : auto-selecting default features for script: latn
+luaotfload | load : no defaults for script “latn”, falling back to “dflt
+”(save: /home/ftherese/.texmf-var/luatex-cache/generic/fonts/otf/lmroman12-reg
+ular.lua)(save: /home/ftherese/.texmf-var/luatex-cache/generic/fonts/otf/lmroman
+12-regular.luc)
+luaotfload | load : auto-selecting default features for script: latn
+luaotfload | load : no defaults for script “latn”, falling back to “dflt
+”(save: /home/ftherese/.texmf-var/luatex-cache/generic/fonts/otf/lmroman12-ita
+lic.lua)(save: /home/ftherese/.texmf-var/luatex-cache/generic/fonts/otf/lmroman1
+2-italic.luc)
+luaotfload | load : auto-selecting default features for script: latn
+luaotfload | load : no defaults for script “latn”, falling back to “dflt
+”(save: /home/ftherese/.texmf-var/luatex-cache/generic/fonts/otf/lmromancaps10
+-regular.lua)(save: /home/ftherese/.texmf-var/luatex-cache/generic/fonts/otf/lmr
+omancaps10-regular.luc) [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-luaotfload | Font names database loaded: /home/ftherese/.texmf-var/luatex-cache
-/generic/names/otfl-names.lua
-luaotfload | load font: font family='warnockpro', subfamily='regular' found: Wa
-rnockPro-Regular.otf(load: /home/ftherese/.texmf-var/luatex-cache/generic/fonts
-/otf/temp-warnockpro-regular.lua)
-luaotfload | load font: font family='warnockpro', subfamily='regular' found: Wa
-rnockPro-Regular.otf
-fontspec: script 'latn' exists in font 'Warnock Pro Regular'
-fontspec: script 'latn' exists in font 'Warnock Pro Regular'
-fontspec: feature '+dlig' for language 'DFLT' and script 'latn' exists in font 
-'Warnock Pro Regular'
-\g_fontspec_family_Warnock Pro_int=\count384
-luaotfload | load font: font family='warnockpro', subfamily='regular' found: Wa
-rnockPro-Regular.otf
-fontspec: feature '+dlig' for language 'DFLT' and script 'latn' exists in font 
-'Warnock Pro Regular'
-fontspec: feature '+smcp' for language 'DFLT' and script 'latn' exists in font 
-'Warnock Pro Regular'
-fontspec: feature '+dlig' for language 'DFLT' and script 'latn' exists in font 
-'Warnock Pro Regular'
-fontspec: feature '+smcp' for language 'DFLT' and script 'latn' exists in font 
-'Warnock Pro Regular'
-luaotfload | load font: font family='warnockpro', subfamily='regular' found: Wa
-rnockPro-Regular.otf
-luaotfload | load font: font family='warnockpro', subfamily='bold' found: Warno
-ckPro-Bold.otf(load: /home/ftherese/.texmf-var/luatex-cache/generic/fonts/otf/t
-emp-warnockpro-bold.lua)
-luaotfload | load font: font family='warnockpro', subfamily='bold' found: Warno
-ckPro-Bold.otf
-fontspec: feature '+dlig' for language 'DFLT' and script 'latn' exists in font 
-'Warnock Pro Bold'
-fontspec: feature '+smcp' for language 'DFLT' and script 'latn' exists in font 
-'Warnock Pro Bold'
-fontspec: feature '+dlig' for language 'DFLT' and script 'latn' exists in font 
-'Warnock Pro Bold'
-fontspec: feature '+smcp' for language 'DFLT' and script 'latn' exists in font 
-'Warnock Pro Bold'
-luaotfload | load font: font family='warnockpro', subfamily='regular' found: Wa
-rnockPro-Regular.otf
-luaotfload | load font: font family='warnockpro', subfamily='italic' found: War
-nockPro-It.otf(load: /home/ftherese/.texmf-var/luatex-cache/generic/fonts/otf/t
-emp-warnockpro-it.lua)
-luaotfload | load font: font family='warnockpro', subfamily='italic' found: War
-nockPro-It.otf
-fontspec: feature '+dlig' for language 'DFLT' and script 'latn' exists in font 
-'Warnock Pro Italic'
-fontspec: feature '+smcp' for language 'DFLT' and script 'latn' exists in font 
-'Warnock Pro Italic'
-fontspec: feature '+dlig' for language 'DFLT' and script 'latn' exists in font 
-'Warnock Pro Italic'
-fontspec: feature '+smcp' for language 'DFLT' and script 'latn' exists in font 
-'Warnock Pro Italic'
-luaotfload | load font: font family='warnockpro', subfamily='regular' found: Wa
-rnockPro-Regular.otf
-luaotfload | load font: font family='warnockpro', subfamily='bolditalic' found:
- WarnockPro-BoldIt.otf(load: /home/ftherese/.texmf-var/luatex-cache/generic/fon
-ts/otf/temp-warnockpro-boldit.lua)
-luaotfload | load font: font family='warnockpro', subfamily='bolditalic' found:
- WarnockPro-BoldIt.otf
-fontspec: feature '+dlig' for language 'DFLT' and script 'latn' exists in font 
-'Warnock Pro Bold Italic'
-fontspec: feature '+smcp' for language 'DFLT' and script 'latn' exists in font 
-'Warnock Pro Bold Italic'
-fontspec: feature '+dlig' for language 'DFLT' and script 'latn' exists in font 
-'Warnock Pro Bold Italic'
-fontspec: feature '+smcp' for language 'DFLT' and script 'latn' exists in font 
-'Warnock Pro Bold Italic'
+\g__file_internal_ior=\read3
+luaotfload | load : auto-selecting default features for script: dflt
+luaotfload | resolve : Font family='warnockpro', subfamily='regular' found: Warn
+ockPro-Regular.otf(save: /home/ftherese/.texmf-var/luatex-cache/generic/fonts/ot
+f/warnockpro-regular.lua)(save: /home/ftherese/.texmf-var/luatex-cache/generic/f
+onts/otf/warnockpro-regular.luc)
+luaotfload | load : auto-selecting default features for script: dflt
+luaotfload | resolve : Font family='warnockpro', subfamily='regular' found: Warn
+ockPro-Regular.otf
+luaotfload: font no 33 (WarnockPro-Regular) defines feature pnum for script latn
+luaotfload: font no 33 (WarnockPro-Regular) defines feature pnum for script latn
+luaotfload: font no 33 (WarnockPro-Regular) defines feature dlig for script latn
+ with language dflt
+\g_fontspec_family_Warnock Pro_int=\count357
+luaotfload | load : auto-selecting default features for script: dflt
+luaotfload | resolve : Font family='warnockpro', subfamily='regular' found: Warn
+ockPro-Regular.otf
+luaotfload: font no 33 (WarnockPro-Regular) defines feature dlig for script latn
+ with language dflt
+luaotfload: font no 33 (WarnockPro-Regular) defines feature smcp for script latn
+ with language dflt
+luaotfload: font no 33 (WarnockPro-Regular) defines feature dlig for script latn
+ with language dflt
+luaotfload: font no 33 (WarnockPro-Regular) defines feature smcp for script latn
+ with language dflt
+luaotfload | load : auto-selecting default features for script: dflt
+luaotfload | resolve : Font family='warnockpro', subfamily='regular' found: Warn
+ockPro-Regular.otf
+luaotfload | load : auto-selecting default features for script: dflt
+luaotfload | resolve : Font family='warnockpro', subfamily='bold' found: Warnock
+Pro-Bold.otf(save: /home/ftherese/.texmf-var/luatex-cache/generic/fonts/otf/warn
+ockpro-bold.lua)(save: /home/ftherese/.texmf-var/luatex-cache/generic/fonts/otf/
+warnockpro-bold.luc)
+luaotfload | load : auto-selecting default features for script: dflt
+luaotfload | resolve : Font family='warnockpro', subfamily='bold' found: Warnock
+Pro-Bold.otf
+luaotfload: font no 34 (WarnockPro-Bold) defines feature dlig for script latn wi
+th language dflt
+luaotfload: font no 34 (WarnockPro-Bold) defines feature smcp for script latn wi
+th language dflt
+luaotfload: font no 34 (WarnockPro-Bold) defines feature dlig for script latn wi
+th language dflt
+luaotfload: font no 34 (WarnockPro-Bold) defines feature smcp for script latn wi
+th language dflt
+luaotfload | load : auto-selecting default features for script: dflt
+luaotfload | resolve : Font family='warnockpro', subfamily='regular' found: Warn
+ockPro-Regular.otf
+luaotfload | load : auto-selecting default features for script: dflt
+luaotfload | resolve : Font family='warnockpro', subfamily='italic' found: Warno
+ckPro-It.otf(save: /home/ftherese/.texmf-var/luatex-cache/generic/fonts/otf/warn
+ockpro-it.lua)(save: /home/ftherese/.texmf-var/luatex-cache/generic/fonts/otf/wa
+rnockpro-it.luc)
+luaotfload | load : auto-selecting default features for script: dflt
+luaotfload | resolve : Font family='warnockpro', subfamily='italic' found: Warno
+ckPro-It.otf
+luaotfload: font no 35 (WarnockPro-It) defines feature dlig for script latn with
+ language dflt
+luaotfload: font no 35 (WarnockPro-It) defines feature smcp for script latn with
+ language dflt
+luaotfload: font no 35 (WarnockPro-It) defines feature dlig for script latn with
+ language dflt
+luaotfload: font no 35 (WarnockPro-It) defines feature smcp for script latn with
+ language dflt
+luaotfload | load : auto-selecting default features for script: dflt
+luaotfload | resolve : Font family='warnockpro', subfamily='regular' found: Warn
+ockPro-Regular.otf
+luaotfload | load : auto-selecting default features for script: dflt
+luaotfload | resolve : Font family='warnockpro', subfamily='bolditalic' found: W
+arnockPro-BoldIt.otf(save: /home/ftherese/.texmf-var/luatex-cache/generic/fonts/
+otf/warnockpro-boldit.lua)(save: /home/ftherese/.texmf-var/luatex-cache/generic/
+fonts/otf/warnockpro-boldit.luc)
+luaotfload | load : auto-selecting default features for script: dflt
+luaotfload | resolve : Font family='warnockpro', subfamily='bolditalic' found: W
+arnockPro-BoldIt.otf
+luaotfload: font no 36 (WarnockPro-BoldIt) defines feature dlig for script latn 
+with language dflt
+luaotfload: font no 36 (WarnockPro-BoldIt) defines feature smcp for script latn 
+with language dflt
+luaotfload: font no 36 (WarnockPro-BoldIt) defines feature dlig for script latn 
+with language dflt
+luaotfload: font no 36 (WarnockPro-BoldIt) defines feature smcp for script latn 
+with language dflt
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -1695,150 +1690,185 @@ fontspec: feature '+smcp' for language 'DFLT' and script 'latn' exists in font
 . This font family consists of the following shapes:
 . 
 . * 'normal' with NFSS spec.:
-. <->"name:WarnockPro:mode=node;script=latn;language=DFLT;+dlig;+tlig;+trep;"
+. <->"WarnockPro:mode=node;script=latn;language=DFLT;+dlig;+tlig;+trep;"
 . 
 . * 'small caps' with NFSS spec.:
 . 
-. <->"name:WarnockPro:mode=node;script=latn;language=DFLT;+dlig;+tlig;+trep;+sm
-cp;"
+. <->"WarnockPro:mode=node;script=latn;language=DFLT;+dlig;+tlig;+trep;+smcp;"
 . 
 . * 'bold' with NFSS spec.:
-. 
-. <->"name:WarnockPro/B:mode=node;script=latn;language=DFLT;+dlig;+tlig;+trep;"
-
+. <->"WarnockPro/B:mode=node;script=latn;language=DFLT;+dlig;+tlig;+trep;"
 . 
 . * 'bold small caps' with NFSS spec.:
 . 
-. <->"name:WarnockPro/B:mode=node;script=latn;language=DFLT;+dlig;+tlig;+trep;+
-smcp;"
+. <->"WarnockPro/B:mode=node;script=latn;language=DFLT;+dlig;+tlig;+trep;+smcp;"
+
 . 
 . * 'italic' with NFSS spec.:
-. 
-. <->"name:WarnockPro/I:mode=node;script=latn;language=DFLT;+dlig;+tlig;+trep;"
-
+. <->"WarnockPro/I:mode=node;script=latn;language=DFLT;+dlig;+tlig;+trep;"
 . 
 . * 'italic small caps' with NFSS spec.:
 . 
-. <->"name:WarnockPro/I:mode=node;script=latn;language=DFLT;+dlig;+tlig;+trep;+
-smcp;"
+. <->"WarnockPro/I:mode=node;script=latn;language=DFLT;+dlig;+tlig;+trep;+smcp;"
+
 . 
 . * 'bold italic' with NFSS spec.:
-. 
-. <->"name:WarnockPro/BI:mode=node;script=latn;language=DFLT;+dlig;+tlig;+trep;
-"
+. <->"WarnockPro/BI:mode=node;script=latn;language=DFLT;+dlig;+tlig;+trep;"
 . 
 . * 'bold italic small caps' with NFSS spec.:
 . 
-. <->"name:WarnockPro/BI:mode=node;script=latn;language=DFLT;+dlig;+tlig;+trep;
-+smcp;"
+. <->"WarnockPro/BI:mode=node;script=latn;language=DFLT;+dlig;+tlig;+trep;+smcp;
+"
 .................................................
-luaotfload | load font: auto-selecting default features for script: dflt (was l
-atn)
-luaotfload | load font: font family='warnockpro', subfamily='regular' found: Wa
-rnockPro-Regular.otf
-luaotfload | load font: auto-selecting default features for script: dflt (was l
-atn)
-luaotfload | load font: font family='warnockpro', subfamily='regular' found: Wa
-rnockPro-Subh.otf(load: /home/ftherese/.texmf-var/luatex-cache/generic/fonts/ot
-f/temp-warnockpro-subh.lua)
-luaotfload | load font: auto-selecting default features for script: dflt (was l
-atn)
-luaotfload | load font: font family='warnockpro', subfamily='regular' found: Wa
-rnockPro-Subh.otf
-checksum mismatch in font greciliae.ofm.vf ignored 
-luaotfload | load font: auto-selecting default features for script: dflt (was l
-atn)
-luaotfload | load font: font family='warnockpro', subfamily='regular' found: Wa
-rnockPro-Regular.otf
-luaotfload | load font: auto-selecting default features for script: dflt (was l
-atn)
-luaotfload | load font: font family='warnockpro', subfamily='regular' found: Wa
-rnockPro-Regular.otf
-luaotfload | load font: auto-selecting default features for script: dflt (was l
-atn)
-luaotfload | load font: font family='warnockpro', subfamily='bold' found: Warno
-ckPro-Bold.otf (./TantumErgo.tex
-Module luatexbase-mcb info: inserting 'gregoriotex.callback'
-(luatexbase-mcb)            at position 1 in 'post_linebreak_filter'
-luaotfload | load font: auto-selecting default features for script: dflt (was l
-atn)
-luaotfload | load font: font family='warnockpro', subfamily='regular' found: Wa
-rnockPro-Disp.otf(load: /home/ftherese/.texmf-var/luatex-cache/generic/fonts/ot
-f/temp-warnockpro-disp.lua)
-Module luatexbase-mcb info: removing 'gregoriotex.callback'
-(luatexbase-mcb)            from 'post_linebreak_filter'
-) (./TantumErgo_v2.tex
-Module luatexbase-mcb info: inserting 'gregoriotex.callback'
-(luatexbase-mcb)            at position 1 in 'post_linebreak_filter'
-Module luatexbase-mcb info: removing 'gregoriotex.callback'
-(luatexbase-mcb)            from 'post_linebreak_filter'
-) (./TantumErgo_v3.tex [2
+luaotfload | load : auto-selecting default features for script: latn
+luaotfload | load : no defaults for script “latn”, falling back to “dflt
+”
+luaotfload | resolve : Font family='warnockpro', subfamily='regular' found: Warn
+ockPro-Regular.otf
+luaotfload | load : auto-selecting default features for script: latn
+luaotfload | load : no defaults for script “latn”, falling back to “dflt
+”
+luaotfload | resolve : Font family='warnockpro', subfamily='regular' found: Warn
+ockPro-Subh.otf(save: /home/ftherese/.texmf-var/luatex-cache/generic/fonts/otf/w
+arnockpro-subh.lua)(save: /home/ftherese/.texmf-var/luatex-cache/generic/fonts/o
+tf/warnockpro-subh.luc)
+luaotfload | load : auto-selecting default features for script: latn
+luaotfload | load : no defaults for script “latn”, falling back to “dflt
+”
+luaotfload | resolve : Font family='warnockpro', subfamily='regular' found: Warn
+ockPro-Subh.otf
+luaotfload | load : auto-selecting default features for script: dflt
+luaotfload | resolve : Font family='greciliae', subfamily='regular' found: greci
+liae.ttf(save: /home/ftherese/.texmf-var/luatex-cache/generic/fonts/otf/grecilia
+e.lua)(save: /home/ftherese/.texmf-var/luatex-cache/generic/fonts/otf/greciliae.
+luc)
+luaotfload | load : auto-selecting default features for script: latn
+luaotfload | load : no defaults for script “latn”, falling back to “dflt
+”
+luaotfload | resolve : Font family='warnockpro', subfamily='regular' found: Warn
+ockPro-Regular.otf
+luaotfload | load : auto-selecting default features for script: latn
+luaotfload | load : no defaults for script “latn”, falling back to “dflt
+”
+luaotfload | resolve : Font family='warnockpro', subfamily='regular' found: Warn
+ockPro-Regular.otf
+luaotfload | load : auto-selecting default features for script: latn
+luaotfload | load : no defaults for script “latn”, falling back to “dflt
+”
+luaotfload | resolve : Font family='warnockpro', subfamily='bold' found: Warnock
+Pro-Bold.otf (./TantumErgo.tex
+luatexbase-mcb: inserting 'gregoriotex.callback'
+at position 1 in 'post_linebreak_filter'
+luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
+at position 1 in 'hyphenate'
+luaotfload | load : auto-selecting default features for script: latn
+luaotfload | load : no defaults for script “latn”, falling back to “dflt
+”
+luaotfload | resolve : Font family='warnockpro', subfamily='regular' found: Warn
+ockPro-Disp.otf(save: /home/ftherese/.texmf-var/luatex-cache/generic/fonts/otf/w
+arnockpro-disp.lua)(save: /home/ftherese/.texmf-var/luatex-cache/generic/fonts/o
+tf/warnockpro-disp.luc)
+luatexbase-mcb: removing 'gregoriotex.callback'
+from 'post_linebreak_filter'
+luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
+from 'hyphenate')
+(./TantumErgo_v2.tex
+luatexbase-mcb: inserting 'gregoriotex.callback'
+at position 1 in 'post_linebreak_filter'
+luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
+at position 1 in 'hyphenate'
+luatexbase-mcb: removing 'gregoriotex.callback'
+from 'post_linebreak_filter'
+luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
+from 'hyphenate') (./TantumErgo_v3.tex [2
 
 ]
-Module luatexbase-mcb info: inserting 'gregoriotex.callback'
-(luatexbase-mcb)            at position 1 in 'post_linebreak_filter'
-Module luatexbase-mcb info: removing 'gregoriotex.callback'
-(luatexbase-mcb)            from 'post_linebreak_filter'
-) (./OSalutaris.tex
-Module luatexbase-mcb info: inserting 'gregoriotex.callback'
-(luatexbase-mcb)            at position 1 in 'post_linebreak_filter'
-
-Underfull \vbox (badness 2073) has occurred while \output is active []
+luatexbase-mcb: inserting 'gregoriotex.callback'
+at position 1 in 'post_linebreak_filter'
+luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
+at position 1 in 'hyphenate'
+luatexbase-mcb: removing 'gregoriotex.callback'
+from 'post_linebreak_filter'
+luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
+from 'hyphenate') (./OSalutaris.tex
+luatexbase-mcb: inserting 'gregoriotex.callback'
+at position 1 in 'post_linebreak_filter'
+luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
+at position 1 in 'hyphenate'
+Underfull \vbox (badness 2057) has occurred while \output is active []
 
  [3]
-Module luatexbase-mcb info: removing 'gregoriotex.callback'
-(luatexbase-mcb)            from 'post_linebreak_filter'
-) (./OSalutaris_v2.tex
-Module luatexbase-mcb info: inserting 'gregoriotex.callback'
-(luatexbase-mcb)            at position 1 in 'post_linebreak_filter'
-Module luatexbase-mcb info: removing 'gregoriotex.callback'
-(luatexbase-mcb)            from 'post_linebreak_filter'
-) (./O_salutaris_Hostia_III.tex
-Module luatexbase-mcb info: inserting 'gregoriotex.callback'
-(luatexbase-mcb)            at position 1 in 'post_linebreak_filter'
-Module luatexbase-mcb info: removing 'gregoriotex.callback'
-(luatexbase-mcb)            from 'post_linebreak_filter'
-)
+luatexbase-mcb: removing 'gregoriotex.callback'
+from 'post_linebreak_filter'
+luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
+from 'hyphenate')
+(./OSalutaris_v2.tex
+luatexbase-mcb: inserting 'gregoriotex.callback'
+at position 1 in 'post_linebreak_filter'
+luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
+at position 1 in 'hyphenate'
+luatexbase-mcb: removing 'gregoriotex.callback'
+from 'post_linebreak_filter'
+luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
+from 'hyphenate') (./O_salutaris_Hostia_III.tex
+luatexbase-mcb: inserting 'gregoriotex.callback'
+at position 1 in 'post_linebreak_filter'
+luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
+at position 1 in 'hyphenate'
+luatexbase-mcb: removing 'gregoriotex.callback'
+from 'post_linebreak_filter'
+luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
+from 'hyphenate')
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [4]
 (./Adoremus_and_Laudate_Dominum_I.tex
-Module luatexbase-mcb info: inserting 'gregoriotex.callback'
-(luatexbase-mcb)            at position 1 in 'post_linebreak_filter'
-luaotfload | load font: auto-selecting default features for script: dflt (was l
-atn)
-luaotfload | load font: font family='warnockpro', subfamily='italic' found: War
-nockPro-It.otf
-Underfull \hbox (badness 10000) in paragraph at lines 3--499
-
+luatexbase-mcb: inserting 'gregoriotex.callback'
+at position 1 in 'post_linebreak_filter'
+luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
+at position 1 in 'hyphenate'
+luaotfload | load : auto-selecting default features for script: latn
+luaotfload | load : no defaults for script “latn”, falling back to “dflt
+”
+luaotfload | resolve : Font family='warnockpro', subfamily='italic' found: Warno
+ckPro-It.otf
+Underfull \hbox (badness 10000) in paragraph at lines 4--500
+[]
  []
 
-Module luatexbase-mcb info: removing 'gregoriotex.callback'
-(luatexbase-mcb)            from 'post_linebreak_filter'
-) (./Adoremus_and_Laudate_Dominum_II.tex
-Module luatexbase-mcb info: inserting 'gregoriotex.callback'
-(luatexbase-mcb)            at position 1 in 'post_linebreak_filter'
-
-Underfull \vbox (badness 2680) has occurred while \output is active []
-
- [5]
-Module luatexbase-mcb info: removing 'gregoriotex.callback'
-(luatexbase-mcb)            from 'post_linebreak_filter'
-) (./Adoremus_and_Laudate_Dominum_III.tex
-Module luatexbase-mcb info: inserting 'gregoriotex.callback'
-(luatexbase-mcb)            at position 1 in 'post_linebreak_filter'
-
+luatexbase-mcb: removing 'gregoriotex.callback'
+from 'post_linebreak_filter'
+luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
+from 'hyphenate') (./Adoremus_and_Laudate_Dominum_II.tex
+luatexbase-mcb: inserting 'gregoriotex.callback'
+at position 1 in 'post_linebreak_filter'
+luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
+at position 1 in 'hyphenate' [5]
+luatexbase-mcb: removing 'gregoriotex.callback'
+from 'post_linebreak_filter'
+luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
+from 'hyphenate')
+(./Adoremus_and_Laudate_Dominum_III.tex
+luatexbase-mcb: inserting 'gregoriotex.callback'
+at position 1 in 'post_linebreak_filter'
+luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
+at position 1 in 'hyphenate'
+luatexbase-mcb: removing 'gregoriotex.callback'
+from 'post_linebreak_filter'
+luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
+from 'hyphenate')
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [6]
-Module luatexbase-mcb info: removing 'gregoriotex.callback'
-(luatexbase-mcb)            from 'post_linebreak_filter'
-) (./Adoro_te_devote.tex
-Module luatexbase-mcb info: inserting 'gregoriotex.callback'
-(luatexbase-mcb)            at position 1 in 'post_linebreak_filter'
-Module luatexbase-mcb info: removing 'gregoriotex.callback'
-(luatexbase-mcb)            from 'post_linebreak_filter'
-) (./Adoro_te_devote-verses.tex
+(./Adoro_te_devote.tex
+luatexbase-mcb: inserting 'gregoriotex.callback'
+at position 1 in 'post_linebreak_filter'
+luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
+at position 1 in 'hyphenate'
+luatexbase-mcb: removing 'gregoriotex.callback'
+from 'post_linebreak_filter'
+luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
+from 'hyphenate') (./Adoro_te_devote-verses.tex
 Underfull \hbox (badness 10000) in paragraph at lines 1--5
 
  []
@@ -1869,70 +1899,84 @@ Underfull \hbox (badness 10000) in paragraph at lines 26--30
  []
 
 ) [7] (./Anima_Christi.tex
-Module luatexbase-mcb info: inserting 'gregoriotex.callback'
-(luatexbase-mcb)            at position 1 in 'post_linebreak_filter'
-Module luatexbase-mcb info: removing 'gregoriotex.callback'
-(luatexbase-mcb)            from 'post_linebreak_filter'
-) (./Ave_Verum.tex
-Module luatexbase-mcb info: inserting 'gregoriotex.callback'
-(luatexbase-mcb)            at position 1 in 'post_linebreak_filter'
-[8
+luatexbase-mcb: inserting 'gregoriotex.callback'
+at position 1 in 'post_linebreak_filter'
+luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
+at position 1 in 'hyphenate'
+luatexbase-mcb: removing 'gregoriotex.callback'
+from 'post_linebreak_filter'
+luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
+from 'hyphenate') (./Ave_Verum.tex
+luatexbase-mcb: inserting 'gregoriotex.callback'
+at position 1 in 'post_linebreak_filter'
+luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
+at position 1 in 'hyphenate' [8
 
 ]
-Module luatexbase-mcb info: removing 'gregoriotex.callback'
-(luatexbase-mcb)            from 'post_linebreak_filter'
-) (./Ecce_panis_Angelorum.tex
-Module luatexbase-mcb info: inserting 'gregoriotex.callback'
-(luatexbase-mcb)            at position 1 in 'post_linebreak_filter'
+luatexbase-mcb: removing 'gregoriotex.callback'
+from 'post_linebreak_filter'
+luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
+from 'hyphenate') (./Ecce_panis_Angelorum.tex
+luatexbase-mcb: inserting 'gregoriotex.callback'
+at position 1 in 'post_linebreak_filter'
+luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
+at position 1 in 'hyphenate'
 [9]
-Module luatexbase-mcb info: removing 'gregoriotex.callback'
-(luatexbase-mcb)            from 'post_linebreak_filter'
-) (./O_Panis_dulcissime.tex
-Module luatexbase-mcb info: inserting 'gregoriotex.callback'
-(luatexbase-mcb)            at position 1 in 'post_linebreak_filter'
-Module luatexbase-mcb info: removing 'gregoriotex.callback'
-(luatexbase-mcb)            from 'post_linebreak_filter'
-) [10] (./Panis_angelicus.tex
-Module luatexbase-mcb info: inserting 'gregoriotex.callback'
-(luatexbase-mcb)            at position 1 in 'post_linebreak_filter'
-Module luatexbase-mcb info: removing 'gregoriotex.callback'
-(luatexbase-mcb)            from 'post_linebreak_filter'
-) (./Ubi_caritas.tex
-Module luatexbase-mcb info: inserting 'gregoriotex.callback'
-(luatexbase-mcb)            at position 1 in 'post_linebreak_filter'
-[11
+luatexbase-mcb: removing 'gregoriotex.callback'
+from 'post_linebreak_filter'
+luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
+from 'hyphenate') (./O_Panis_dulcissime.tex
+luatexbase-mcb: inserting 'gregoriotex.callback'
+at position 1 in 'post_linebreak_filter'
+luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
+at position 1 in 'hyphenate'
+luatexbase-mcb: removing 'gregoriotex.callback'
+from 'post_linebreak_filter'
+luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
+from 'hyphenate') [10] (./Panis_angelicus.tex
+luatexbase-mcb: inserting 'gregoriotex.callback'
+at position 1 in 'post_linebreak_filter'
+luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
+at position 1 in 'hyphenate'
+luatexbase-mcb: removing 'gregoriotex.callback'
+from 'post_linebreak_filter'
+luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
+from 'hyphenate') (./Ubi_caritas.tex
+luatexbase-mcb: inserting 'gregoriotex.callback'
+at position 1 in 'post_linebreak_filter'
+luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
+at position 1 in 'hyphenate' [11
 
 ]
-Module luatexbase-mcb info: removing 'gregoriotex.callback'
-(luatexbase-mcb)            from 'post_linebreak_filter'
-) [12] (./main-sanctSacra.aux) )
+luatexbase-mcb: removing 'gregoriotex.callback'
+from 'post_linebreak_filter'
+luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
+from 'hyphenate') [12] (./main-sanctSacra.aux) )
 
 Here is how much of LuaTeX's memory you used:
- 28511 strings out of 495091
- 745180,662416 words of node,token memory allocated
- 597486 words of node memory still in use:
-   20452 hlist, 3378 vlist, 13529 rule, 33891 glue, 13530 kern, 167 penalty, 68
-91 glyph, 13739 attribute, 230 glue_spec, 6881 attribute_list, 2 write, 92 pdf_
-literal, 184 pdf_colorstack nodes
-   avail lists: 1:2,2:8375,3:1425,4:598,5:2143,6:1629,7:283,9:975,10:178
- 30836 multiletter control sequences out of 65536+200000
- 54 fonts using 5546015 bytes
- 61i,11n,55p,615b,276s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/share/fonts/truetype/WarnockPro-It.otf></usr/share/fonts/truetype/Warnock
-Pro-Regular.otf></usr/share/fonts/truetype/WarnockPro-Bold.otf></usr/share/font
-s/truetype/WarnockPro-Disp.otf></usr/share/fonts/truetype/WarnockPro-Subh.otf><
-/usr/share/texmf/fonts/opentype/public/lm/lmromancaps10-regular.otf></usr/share
-/texmf/fonts/opentype/public/lm/lmroman12-regular.otf></usr/share/texmf/fonts/o
-pentype/public/lm/lmroman12-italic.otf></usr/share/texmf/fonts/opentype/public/
-lm/lmroman17-regular.otf></usr/local/share/texmf/fonts/type1/public/webomints/W
-ebOMintsGD.pfb></usr/share/texmf/fonts/type1/public/gregoriotex/greciliae/greci
-liae-0.pfb></usr/share/texmf/fonts/type1/public/gregoriotex/greciliae/greciliae
--1.pfb></usr/share/texmf/fonts/type1/public/gregoriotex/greciliae/greciliae-2.p
-fb></usr/share/texmf/fonts/type1/public/gregoriotex/gresym/gresym.pfb>
-Output written on main-sanctSacra.pdf (12 pages, 156212 bytes).
+ 28785 strings out of 494830
+ 745195,662416 words of node,token memory allocated
+ 596712 words of node memory still in use:
+   20441 hlist, 3379 vlist, 13533 rule, 33901 glue, 13535 kern, 94 penalty, 6877
+ glyph, 13581 attribute, 233 glue_spec, 6796 attribute_list, 2 write, 92 pdf_lit
+eral, 184 pdf_colorstack nodes
+   avail lists: 1:4,2:8419,3:1439,4:598,5:2150,6:1634,7:282,8:1,9:975,10:124
+ 31253 multiletter control sequences out of 65536+600000
+ 45 fonts using 4512727 bytes
+ 61i,11n,55p,615b,276s stack positions out of 5000i,500n,10000p,200000b,100000s
+</usr/share/texmf/fonts/truetype/public/gregoriotex/gresym.ttf></usr/share/fonts
+/truetype/WarnockPro-It.otf></usr/share/fonts/truetype/WarnockPro-Regular.otf></
+usr/share/texmf/fonts/truetype/public/gregoriotex/greciliae.ttf></usr/share/font
+s/truetype/WarnockPro-Bold.otf></usr/share/fonts/truetype/WarnockPro-Disp.otf></
+usr/share/fonts/truetype/WarnockPro-Subh.otf></usr/share/texmf/fonts/opentype/pu
+blic/lm/lmromancaps10-regular.otf></usr/share/texmf/fonts/opentype/public/lm/lmr
+oman12-regular.otf></usr/share/texmf/fonts/opentype/public/lm/lmroman12-italic.o
+tf></usr/share/texmf/fonts/opentype/public/lm/lmroman17-regular.otf></usr/local/
+share/texmf/fonts/type1/public/webomints/WebOMintsGD.pfb>
+Output written on main-sanctSacra.pdf (12 pages, 89069 bytes).
 
-PDF statistics: 129 PDF objects out of 1000 (max. 8388607)
- 82 compressed objects within 1 object stream
+PDF statistics: 127 PDF objects out of 1000 (max. 8388607)
+ 78 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 131072)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
