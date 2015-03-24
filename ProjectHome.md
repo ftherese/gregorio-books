@@ -1,0 +1,1 @@
+This project is designed to create different booklets for use in liturgical settings using gregorio and latex typesetting engines.
